@@ -1,0 +1,167 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 10n 1m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "fixedY1scale": {
+        "max": 6.0,
+        "min": -0.6
+      },
+      "fixedY2scale": {
+        "max": 0.03,
+        "min": -0.0006
+      },
+      "legend": {
+        "x": 982,
+        "y": 372
+      },
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 140,
+        "top": 30
+      },
+      "measurements": [
+        {
+          "expr": "RMS P(V3)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(V2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(V1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MAX P(Qh1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MAX P(Qh2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MAX P(Ql1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MAX P(Ql2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "AVG P(Qh1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "AVG P(Qh2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "AVG P(Ql1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "AVG P(Ql2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Qh1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Qh2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Ql1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Ql2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MAX P(R17)",
+          "format": "3~W"
+        },
+        {
+          "expr": "AVG P(R17)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R17)",
+          "format": "3~W"
+        }
+      ],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "I(D4)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "I(D6)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "P(D4)",
+          "trace_type": 272
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "cursor2": {
+            "position": 0.0005415244596131968,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "signal": "P(D5)",
+          "trace_type": 272
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "P(Qh1)",
+          "trace_type": 272
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "P(Ql2)",
+          "trace_type": 272
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "P(V3)",
+          "trace_type": 272
+        }
+      ]
+    },
+    {
+      "analysis": "OP",
+      "commands": [
+        ".op",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
