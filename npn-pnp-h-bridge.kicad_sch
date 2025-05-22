@@ -567,218 +567,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Elektuur:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capacitor, non-polarized/bipolar"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Indicator" "+"
-				(at -1.27 3.175 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "V"
-				(at -0.635 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C cap capacitor non-polarized bipolar"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1_1"
-				(rectangle
-					(start -1.905 1.1938)
-					(end 1.905 0.4318)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.905 -0.4318)
-					(end 1.905 -1.1938)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.8862)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 3.8862)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C_1_2"
-				(polyline
-					(pts
-						(xy -1.905 0.4318) (xy 1.905 0.4318) (xy 1.905 1.4986) (xy -1.905 1.4986) (xy -1.905 0.4318) (xy -1.8034 0.5334)
-						(xy -1.8034 1.397) (xy 1.8034 1.397) (xy 1.8034 0.5334) (xy -1.8034 0.5334) (xy -1.905 0.4318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.4986) (xy 1.905 -1.4986) (xy 1.905 -0.4318) (xy -1.905 -0.4318) (xy -1.905 -1.4986)
-						(xy -1.8034 -1.397) (xy -1.8034 -0.5334) (xy 1.8034 -0.5334) (xy 1.8034 -1.397) (xy -1.8034 -1.397)
-						(xy -1.905 -1.4986)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.5814)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 3.5814)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:R"
 			(pin_numbers
 				(hide yes)
@@ -1453,7 +1241,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BD139"
+		(symbol "Transistor_BJT:BC327"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1470,7 +1258,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BD139"
+			(property "Value" "BC327"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1479,7 +1267,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1490,7 +1278,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1500,7 +1288,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1509,7 +1297,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Low Voltage Transistor"
+			(property "ki_keywords" "PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1518,7 +1306,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?126*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1527,212 +1315,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BD139_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BD139_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BD140"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BD140"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Low Voltage Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?126*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BD140_0_1"
+			(symbol "BC327_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1805,7 +1388,7 @@
 					)
 				)
 			)
-			(symbol "BD140_1_1"
+			(symbol "BC327_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1816,7 +1399,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1834,7 +1417,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1852,7 +1435,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1863,7 +1446,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
+		(symbol "Transistor_BJT:BC337"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1880,7 +1463,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT3904"
+			(property "Value" "BC337"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1889,7 +1472,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1900,7 +1483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1910,7 +1493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1928,7 +1511,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1937,7 +1520,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBT3904_0_1"
+			(symbol "BC337_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1974,7 +1557,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3904_1_1"
+			(symbol "BC337_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2021,7 +1604,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2039,7 +1622,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2057,7 +1640,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2416,16 +1999,10 @@
 		(uuid "57dbeaec-5e4f-48be-9706-13259d82e181")
 	)
 	(junction
-		(at 48.26 78.74)
+		(at 168.91 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a17f830-452a-4297-bfb9-bc3bdb014bbb")
-	)
-	(junction
-		(at 48.26 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5db1abb0-ee39-41fc-ac18-8c367eefef84")
+		(uuid "5ffc25d1-9705-440a-b564-6d32af944736")
 	)
 	(junction
 		(at 240.03 142.24)
@@ -2462,6 +2039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "725e05f8-e9d7-4f51-bc25-47becf255f04")
+	)
+	(junction
+		(at 120.65 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72742dcd-4ce6-4533-97d6-07f7e40fc611")
 	)
 	(junction
 		(at 240.03 138.43)
@@ -2518,12 +2101,6 @@
 		(uuid "a3ceb9c0-71cb-4a7e-a4ba-f64539bd2f23")
 	)
 	(junction
-		(at 58.42 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae764caf-dade-4802-a2e0-eec1597ba1c6")
-	)
-	(junction
 		(at 247.65 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2534,12 +2111,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b16d2a13-2f07-442c-b923-1fc1e221de9e")
-	)
-	(junction
-		(at 58.42 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b27aceea-e9b8-4d6e-ad85-2299cb70d5c1")
 	)
 	(junction
 		(at 240.03 156.21)
@@ -2668,12 +2239,6 @@
 		(uuid "e495df1d-854e-455e-8c55-d58f57ff9283")
 	)
 	(junction
-		(at 62.23 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea84c646-46c3-4834-9afe-912993e8013c")
-	)
-	(junction
 		(at 247.65 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2717,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 78.74) (xy 48.26 78.74)
+			(xy 43.18 78.74) (xy 72.39 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2734,6 +2299,16 @@
 			(type default)
 		)
 		(uuid "0080478a-0757-4bff-8f09-8b83dc19ad8a")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04913400-04b8-47c1-aa31-278bfc152c6a")
 	)
 	(wire
 		(pts
@@ -2797,16 +2372,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 62.23 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ae68c9-df45-4275-b403-e8da0ce81f1a")
-	)
-	(wire
-		(pts
 			(xy 247.65 151.13) (xy 247.65 156.21)
 		)
 		(stroke
@@ -2834,16 +2399,6 @@
 			(type default)
 		)
 		(uuid "2106844f-c863-4ccc-a948-f7dc4a10fbff")
-	)
-	(wire
-		(pts
-			(xy 48.26 71.12) (xy 48.26 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22221fee-69fe-42fd-8639-2a5b177488ba")
 	)
 	(wire
 		(pts
@@ -2887,16 +2442,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 78.74) (xy 62.23 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a17ba34-a5fa-4e8c-a200-e90bf72b53c6")
-	)
-	(wire
-		(pts
 			(xy 240.03 120.65) (xy 240.03 124.46)
 		)
 		(stroke
@@ -2907,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 69.85) (xy 110.49 69.85)
+			(xy 106.68 69.85) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2937,13 +2482,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 119.38) (xy 64.77 119.38)
+			(xy 120.65 69.85) (xy 124.46 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34d62fe7-2889-4927-b94e-8f2f574626bc")
+		(uuid "356eaba7-f9e1-40dd-8c11-785f819ec0a0")
 	)
 	(wire
 		(pts
@@ -2964,16 +2509,6 @@
 			(type default)
 		)
 		(uuid "36f36ad7-6a88-45e8-94d1-8eb295995b5e")
-	)
-	(wire
-		(pts
-			(xy 58.42 111.76) (xy 58.42 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38bbc417-db13-4d1e-8bc9-0344ad91a556")
 	)
 	(wire
 		(pts
@@ -3077,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 72.39 73.66)
+			(xy 72.39 72.39) (xy 72.39 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3187,16 +2722,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 48.26 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "727f0390-0b7a-4517-9930-95eea3518eda")
-	)
-	(wire
-		(pts
 			(xy 184.15 69.85) (xy 180.34 69.85)
 		)
 		(stroke
@@ -3247,16 +2772,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.03) (xy 72.39 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82469309-5a9b-4706-ad6b-050e0e74df3c")
-	)
-	(wire
-		(pts
 			(xy 240.03 80.01) (xy 240.03 83.82)
 		)
 		(stroke
@@ -3294,16 +2809,6 @@
 			(type default)
 		)
 		(uuid "92bdfe7d-3ff7-4700-91bf-2b442f233ef0")
-	)
-	(wire
-		(pts
-			(xy 72.39 124.46) (xy 72.39 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "932d9f0a-8755-4ffe-9ca0-34cf5598e8da")
 	)
 	(wire
 		(pts
@@ -3414,16 +2919,6 @@
 			(type default)
 		)
 		(uuid "aeb0e2cc-bc42-4a3f-81cc-bb45f413d6f3")
-	)
-	(wire
-		(pts
-			(xy 72.39 86.36) (xy 72.39 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b058a7f3-7b19-4be8-80b2-1c271fb847aa")
 	)
 	(wire
 		(pts
@@ -3557,16 +3052,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3eb36d8-87f4-4fdc-abf8-b763599d549a")
-	)
-	(wire
-		(pts
 			(xy 240.03 71.12) (xy 240.03 74.93)
 		)
 		(stroke
@@ -3577,17 +3062,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 78.74) (xy 64.77 78.74)
+			(xy 72.39 113.03) (xy 72.39 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8c7932f-979e-4f69-b1be-f43e4da63459")
+		(uuid "c8d1388b-622e-4b7e-a24f-409b1df01512")
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 124.46 69.85)
+			(xy 118.11 69.85) (xy 120.65 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3617,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 69.85) (xy 166.37 69.85)
+			(xy 170.18 69.85) (xy 168.91 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3637,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 119.38) (xy 48.26 119.38)
+			(xy 44.45 119.38) (xy 72.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3674,6 +3159,26 @@
 			(type default)
 		)
 		(uuid "d5416a23-d882-4ff7-bea8-c5dfdf5590d8")
+	)
+	(wire
+		(pts
+			(xy 168.91 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ab8aaf-552a-491d-9b91-0c0d31a4baa9")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c85644-1907-4ca6-96f0-c5c0a3e76258")
 	)
 	(wire
 		(pts
@@ -3945,26 +3450,6 @@
 		)
 		(uuid "5195aea5-c840-4802-934d-19e7d8f9aa0f")
 	)
-	(label "bQ2A"
-		(at 64.77 119.38 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f2e448e-de32-49fc-bb38-7d9214bfc205")
-	)
-	(label "HI_IN"
-		(at 34.29 158.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bedf9ed-1efb-457a-9f87-29302861a0cb")
-	)
 	(label "O2"
 		(at 148.59 104.14 0)
 		(effects
@@ -3985,25 +3470,25 @@
 		)
 		(uuid "7f1e3827-45b7-4027-91c6-f77aa70966ce")
 	)
-	(label "bQ1A"
-		(at 64.77 78.74 90)
+	(label "HI_IN"
+		(at 49.53 176.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a23519d0-661d-4544-89e7-43ed2e2c0a0b")
+		(uuid "d6c0ccfb-aeb6-4331-839c-2d7ad95a512d")
 	)
 	(label "LO_IN"
-		(at 102.87 158.75 90)
+		(at 62.23 176.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "da0c8fd5-6c7a-43d3-8845-61370de1bab4")
+		(uuid "d7a5f58e-6236-420d-9ff6-477a609e0602")
 	)
 	(label "LO_IN"
 		(at 25.4 34.29 180)
@@ -4140,7 +3625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD140")
+		(lib_id "Transistor_BJT:BC327")
 		(at 129.54 69.85 0)
 		(mirror x)
 		(unit 1)
@@ -4158,7 +3643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BD140"
+		(property "Value" "BC327"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -4167,7 +3652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 134.62 67.945 0)
 			(effects
 				(font
@@ -4178,7 +3663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -4188,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -4197,7 +3682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/Cordell-Models.lib"
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTP.LIB"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -4206,7 +3691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "BD140C"
+		(property "Sim.Name" "BC327"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -4224,7 +3709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -4255,94 +3740,6 @@
 			(project "h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "Qh1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:C")
-		(at 53.34 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "097ba455-d80e-4ac3-af91-163b7838e7c4")
-		(property "Reference" "C2"
-			(at 53.34 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 53.34 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 53.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 53.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 50.165 113.03 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 56.515 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2878539a-9db2-4bb7-a2d9-014a0b117f2d")
-		)
-		(pin "2"
-			(uuid "30b29264-e411-4686-8a3c-2d4f3cc4a3e8")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4836,71 +4233,45 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 53.34 119.38 90)
+		(lib_id "Transistor_BJT:BC327")
+		(at 161.29 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14bf1c21-0891-4d57-8362-5f490120f4b8")
-		(property "Reference" "R13"
-			(at 53.34 115.57 90)
+		(uuid "160bfbc3-4d55-47f6-a22d-c487642a8757")
+		(property "Reference" "Qh2"
+			(at 156.21 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "3.3k"
-			(at 53.34 119.38 90)
-			(do_not_autoplace yes)
+		(property "Value" "BC327"
+			(at 156.21 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 53.34 119.38 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 156.21 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 50.165 122.555 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 56.515 116.84 0)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(at 161.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,16 +4280,73 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTP.LIB"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BC327"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "f3c2934f-af03-4aa9-9eb0-387d961a6d79")
+			(uuid "84c9181a-8e14-4772-b628-17e05f758d95")
+		)
+		(pin "3"
+			(uuid "1930b1a1-b472-4b38-a14f-b647ae2f9c36")
 		)
 		(pin "2"
-			(uuid "bf86c56e-6fc0-4c27-8bf6-d540fff3a73a")
+			(uuid "7d89a0f7-58da-4c4a-a1ae-2f86d9ccafe4")
 		)
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "R13")
+					(reference "Qh2")
 					(unit 1)
 				)
 			)
@@ -5194,95 +4622,6 @@
 			(project "h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Elektuur:R")
-		(at 53.34 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "286f8f6b-c166-4b9f-bb42-220165c802ce")
-		(property "Reference" "R9"
-			(at 53.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 53.34 78.74 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "resistor"
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 50.165 81.915 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "W"
-			(at 56.515 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dbee165-ce3a-47a6-8891-24f341c2ed71")
-		)
-		(pin "2"
-			(uuid "d5d306c1-2d08-428b-b3b4-5fc8978c49e0")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5840,127 +5179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 69.85 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0ea9f8-05c6-42c9-9d96-7ed89129eda7")
-		(property "Reference" "Ql3"
-			(at 74.93 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 74.93 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.93 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 69.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2935340-0f80-4d9d-b689-80d9cf8301d6")
-		)
-		(pin "3"
-			(uuid "48734c4c-baa3-42e4-8fca-dc7a51148866")
-		)
-		(pin "2"
-			(uuid "b5310de2-c309-4eef-b9a9-5f735de7ed33")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Ql3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 243.84 93.98 180)
 		(unit 1)
@@ -6066,7 +5284,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 115.57 69.85 90)
+		(at 113.03 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6075,7 +5293,7 @@
 		(fields_autoplaced yes)
 		(uuid "54065b20-d4be-465e-aa68-1003edead58d")
 		(property "Reference" "R1"
-			(at 115.57 66.04 90)
+			(at 113.03 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +5301,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 115.57 69.85 90)
+			(at 113.03 69.85 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6092,7 +5310,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 115.57 69.85 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6101,7 +5319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 69.85 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +5328,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 115.57 69.85 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +5337,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 112.395 73.025 0)
+			(at 109.855 73.025 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6129,7 +5347,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 118.745 67.31 0)
+			(at 116.205 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +5543,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
+		(lib_id "Transistor_BJT:BC337")
 		(at 129.54 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6343,7 +5561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BD139"
+		(property "Value" "BC337"
 			(at 134.62 113.0299 0)
 			(effects
 				(font
@@ -6352,7 +5570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 134.62 113.665 0)
 			(effects
 				(font
@@ -6363,7 +5581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -6373,7 +5591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -6382,7 +5600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/Cordell-Models.lib"
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTN.LIB"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -6391,7 +5609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "BD139C"
+		(property "Sim.Name" "BC337"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -6409,7 +5627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -7059,192 +6277,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c672e1c-4708-41c1-b515-4637829325a4")
-		(property "Reference" "#PWR02"
-			(at 72.39 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d437515-2e08-4493-b3aa-46febc50e99a")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BD140")
-		(at 161.29 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70e01189-340b-4325-bc9b-b96ca5bfd840")
-		(property "Reference" "Qh2"
-			(at 156.21 71.1201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD140"
-			(at 156.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 156.21 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/Cordell-Models.lib"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BD140C"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "645f0b27-6a54-446f-be36-007ac8fa8a3e")
-		)
-		(pin "3"
-			(uuid "230ce18f-f6e7-4ad4-a501-f93847600f1f")
-		)
-		(pin "2"
-			(uuid "b6ade11a-5575-49e2-b97a-dd348371228e")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Qh2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 19.05 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7414,129 +6446,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD139")
-		(at 161.29 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ae18f7e-3722-4d90-a0a3-e09a5adc61bf")
-		(property "Reference" "Ql2"
-			(at 156.21 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD139"
-			(at 156.21 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 156.21 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/Cordell-Models.lib"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BD139C"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 161.29 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c339120e-abea-4da4-a755-8282542916d1")
-		)
-		(pin "3"
-			(uuid "ec956806-4e4c-48f3-9ccc-47e71eb56bc4")
-		)
-		(pin "2"
-			(uuid "debf0c37-1aa8-40c4-9653-26eacc517b7b")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Ql2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 72.39 106.68 180)
+		(at 168.91 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7545,7 +6456,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bd37d73-b98b-48d8-8bf4-9c78701f019c")
 		(property "Reference" "R14"
-			(at 74.93 106.6799 0)
+			(at 171.45 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,8 +6464,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 72.39 106.68 90)
+		(property "Value" "10k"
+			(at 168.91 55.88 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7563,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 72.39 106.68 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 106.68 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,7 +6492,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 72.39 106.68 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +6501,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 75.565 109.855 0)
+			(at 172.085 59.055 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7600,7 +6511,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 69.85 103.505 0)
+			(at 166.37 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,72 +7120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89cb44dc-f391-42ef-8797-e58337535990")
-		(property "Reference" "#PWR03"
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35b3e67a-9b75-4e5e-8205-187f3def3651")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 243.84 57.15 0)
 		(unit 1)
@@ -8480,127 +7325,6 @@
 			(project "h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 69.85 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "998b59fb-8182-49cf-acd4-68b7a1938c3b")
-		(property "Reference" "Ql4"
-			(at 74.93 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 74.93 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 74.93 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 69.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "286f9fdf-a9da-4a96-8c68-3212d30fde2a")
-		)
-		(pin "3"
-			(uuid "e327e9cc-d264-422b-b561-fe3f56887526")
-		)
-		(pin "2"
-			(uuid "f0930f0f-c406-4157-aa17-fd9586e4a4f7")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Ql4")
 					(unit 1)
 				)
 			)
@@ -9358,7 +8082,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 72.39 64.77 180)
+		(at 120.65 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9367,7 +8091,7 @@
 		(fields_autoplaced yes)
 		(uuid "af9cf8de-4653-4fd5-b67d-10c99b5f9a3a")
 		(property "Reference" "R10"
-			(at 74.93 64.7699 0)
+			(at 123.19 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,8 +8099,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 72.39 64.77 90)
+		(property "Value" "10k"
+			(at 120.65 55.88 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9385,7 +8109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 72.39 64.77 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +8118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 64.77 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +8127,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 72.39 64.77 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +8136,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 75.565 67.945 0)
+			(at 123.825 59.055 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9422,7 +8146,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 69.85 61.595 0)
+			(at 118.11 52.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,6 +8165,72 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23cb780-4a5e-439b-b342-ed0fd3e24bba")
+		(property "Reference" "#PWR03"
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2c757c9-5b5b-43e3-b9be-2b41ee22322a")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9649,6 +8439,127 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 161.29 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8b4d1b2-5391-4619-b3c2-9b85ebfd1655")
+		(property "Reference" "Ql2"
+			(at 156.21 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337"
+			(at 156.21 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 156.21 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTN.LIB"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BC337"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba8997f-f3c3-47f5-ab3f-ad75a969e71e")
+		)
+		(pin "3"
+			(uuid "23c9454d-41d2-4bd2-87f2-7fd12ff84ad7")
+		)
+		(pin "2"
+			(uuid "faa602e1-26ec-4b84-b481-37ad6b0c3578")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "Ql2")
 					(unit 1)
 				)
 			)
@@ -10093,94 +9004,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Elektuur:C")
-		(at 53.34 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5ac46e9-b335-4596-8ef2-9416f8997df2")
-		(property "Reference" "C1"
-			(at 53.34 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 53.34 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 53.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 53.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "+"
-			(at 50.165 72.39 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "V"
-			(at 56.515 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be7ae1b9-ab90-4798-8e71-7b32ce79c844")
-		)
-		(pin "2"
-			(uuid "1243b767-6373-43c5-8a30-a9767e6f1dc6")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 243.84 133.35 0)
 		(unit 1)
@@ -10383,6 +9206,72 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead20a94-3298-4fba-971a-ce525c3c7503")
+		(property "Reference" "#PWR02"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06a17eb2-e84a-4812-8925-440986a4c245")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

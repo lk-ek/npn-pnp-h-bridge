@@ -107,6 +107,15 @@
       "traces": [
         {
           "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 0.0007861205915813424,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
           "signal": "I(D4)",
           "trace_type": 258
         },
