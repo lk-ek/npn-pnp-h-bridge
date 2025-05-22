@@ -101,21 +101,72 @@
         {
           "expr": "RMS P(R17)",
           "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R3)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R4)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R5)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R6)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R7)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R8)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R9)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R10)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R11)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R12)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R13)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R14)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R15)",
+          "format": "3~W"
         }
       ],
       "showGrid": true,
       "traces": [
         {
           "color": "rgb(152, 78, 163)",
-          "cursor1": {
-            "position": 0.0007861205915813424,
-            "x_format": "3~s",
-            "y_format": "3~A"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
           "signal": "I(D4)",
           "trace_type": 258
         },
@@ -126,36 +177,12 @@
         },
         {
           "color": "rgb(55, 126, 184)",
-          "signal": "P(D4)",
+          "signal": "P(Q2)",
           "trace_type": 272
         },
         {
           "color": "rgb(77, 175, 74)",
-          "cursor2": {
-            "position": 0.0005415244596131968,
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "signal": "P(D5)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(247, 129, 191)",
-          "signal": "P(Qh1)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(152, 78, 163)",
-          "signal": "P(Ql2)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(255, 127, 0)",
-          "signal": "P(V3)",
+          "signal": "P(Q4)",
           "trace_type": 272
         }
       ]
