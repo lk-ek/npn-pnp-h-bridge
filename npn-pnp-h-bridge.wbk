@@ -184,6 +184,25 @@
           "color": "rgb(77, 175, 74)",
           "signal": "P(Q4)",
           "trace_type": 272
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "cursor1": {
+            "position": 0.0006313993174061433,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "P(Qh1)",
+          "trace_type": 272
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "P(Qh2)",
+          "trace_type": 272
         }
       ]
     },

@@ -1453,7 +1453,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC327"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1470,7 +1470,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC327"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1479,7 +1479,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1490,7 +1490,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1500,212 +1500,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC327_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BC327_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:BC337"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC337"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1723,7 +1518,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1732,7 +1527,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC337_0_1"
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -1769,7 +1564,7 @@
 					)
 				)
 			)
-			(symbol "BC337_1_1"
+			(symbol "MMBT2222A_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1816,7 +1611,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1834,7 +1629,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1852,7 +1647,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2011,6 +1806,211 @@
 						(type outline)
 					)
 				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:MMBT3906"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3906"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3906_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMBT3906_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2624,12 +2624,6 @@
 		(uuid "0df1ba66-cebb-409a-ba36-9efdb1d1d9a8")
 	)
 	(junction
-		(at 213.36 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e1afd7e-a555-49ab-8fb1-37fc4ce89516")
-	)
-	(junction
 		(at 292.1 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2792,22 +2786,10 @@
 		(uuid "7642fb9c-33c1-4f5d-aec5-2f35fc863d6d")
 	)
 	(junction
-		(at 228.6 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "790fce69-334f-49d0-8237-8fcb8e510209")
-	)
-	(junction
 		(at 55.88 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c01baf7-e18d-40e6-a3f4-70f4e3a35790")
-	)
-	(junction
-		(at 212.09 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c7f9c7c-898c-4eb6-9595-3627bdda12b7")
 	)
 	(junction
 		(at 292.1 111.76)
@@ -2862,12 +2844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afa92713-eea8-42c0-8128-af30d7510d33")
-	)
-	(junction
-		(at 167.64 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1432a13-6554-4eec-ac61-029efb27ce2f")
 	)
 	(junction
 		(at 292.1 173.99)
@@ -2946,12 +2922,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce5cf1c6-c274-481b-b6e9-e42459bdee37")
-	)
-	(junction
-		(at 151.13 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0a64360-0d7b-4bb8-af5c-c48d60dc80d5")
 	)
 	(junction
 		(at 48.26 72.39)
@@ -3042,12 +3012,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed0a688-6ef0-41b3-a5e4-694dab3e635c")
-	)
-	(junction
-		(at 165.1 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f56576d0-2a8f-4929-a8da-d1f66094836b")
 	)
 	(junction
 		(at 240.03 170.18)
@@ -3415,6 +3379,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 64.77) (xy 214.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1dfb5-a12d-49b1-ad5f-4dcd2bd47fff")
+	)
+	(wire
+		(pts
 			(xy 240.03 102.87) (xy 240.03 106.68)
 		)
 		(stroke
@@ -3525,16 +3499,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 119.38) (xy 212.09 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f21e891-8d86-406d-9998-9f27bb9e3c25")
-	)
-	(wire
-		(pts
 			(xy 240.03 179.07) (xy 240.03 182.88)
 		)
 		(stroke
@@ -3612,16 +3576,6 @@
 			(type default)
 		)
 		(uuid "475c254b-0190-46ce-970a-5de9fe1c4c3b")
-	)
-	(wire
-		(pts
-			(xy 162.56 64.77) (xy 165.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "480771e1-8d16-4e0d-a68b-00d9342bd9b2")
 	)
 	(wire
 		(pts
@@ -3812,16 +3766,6 @@
 			(type default)
 		)
 		(uuid "5e72d2f2-c5fa-46e9-9b13-985ad074f59f")
-	)
-	(wire
-		(pts
-			(xy 213.36 64.77) (xy 214.63 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f124f5d-bc49-4f40-bba7-803afee924cf")
 	)
 	(wire
 		(pts
@@ -4035,16 +3979,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 165.1 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76ad5f7e-86c6-4cdd-888a-d3bfb74bae4a")
-	)
-	(wire
-		(pts
 			(xy 262.89 102.87) (xy 259.08 102.87)
 		)
 		(stroke
@@ -4065,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 168.91 106.68)
+			(xy 165.1 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4152,16 +4086,6 @@
 			(type default)
 		)
 		(uuid "8640852d-411a-4440-9988-5bedf2d2b68b")
-	)
-	(wire
-		(pts
-			(xy 167.64 119.38) (xy 167.64 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8723d834-641d-4066-88dc-99d4123d84eb")
 	)
 	(wire
 		(pts
@@ -4545,16 +4469,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 106.68) (xy 214.63 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad5c411f-fe6e-4744-a930-fdf955e95078")
-	)
-	(wire
-		(pts
 			(xy 292.1 106.68) (xy 285.75 106.68)
 		)
 		(stroke
@@ -4582,16 +4496,6 @@
 			(type default)
 		)
 		(uuid "afef21c3-dbbd-476a-bcce-1e567003d87c")
-	)
-	(wire
-		(pts
-			(xy 151.13 64.77) (xy 152.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b27ccae4-6b8c-492b-b455-e00edea484ad")
 	)
 	(wire
 		(pts
@@ -4725,16 +4629,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 64.77) (xy 228.6 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be20343b-6ac8-4fe9-b269-27328ebb6477")
-	)
-	(wire
-		(pts
 			(xy 248.92 138.43) (xy 240.03 138.43)
 		)
 		(stroke
@@ -4762,16 +4656,6 @@
 			(type default)
 		)
 		(uuid "bf61c9b2-468f-435c-82ab-4bfa0443c04a")
-	)
-	(wire
-		(pts
-			(xy 165.1 106.68) (xy 167.64 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bffd9872-7caf-48cd-a1b9-346c19d4bb19")
 	)
 	(wire
 		(pts
@@ -4812,16 +4696,6 @@
 			(type default)
 		)
 		(uuid "c2c247c6-e2ac-4468-8a27-bda10355a1ff")
-	)
-	(wire
-		(pts
-			(xy 212.09 109.22) (xy 212.09 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e85e0e-3777-4077-8bc4-89e4539a605e")
 	)
 	(wire
 		(pts
@@ -4915,16 +4789,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 64.77) (xy 213.36 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4352f1-0c42-4133-ab66-5e4605b4ae2c")
-	)
-	(wire
-		(pts
 			(xy 262.89 147.32) (xy 259.08 147.32)
 		)
 		(stroke
@@ -4955,17 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 64.77) (xy 151.13 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1236cd8-aa23-4a5e-94d0-0bf534023bee")
-	)
-	(wire
-		(pts
-			(xy 165.1 64.77) (xy 168.91 64.77)
+			(xy 162.56 64.77) (xy 168.91 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 212.09 106.68)
+			(xy 210.82 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5152,26 +5006,6 @@
 			(type default)
 		)
 		(uuid "e7bdcb7d-344c-4fd1-954e-c6e6badd8c35")
-	)
-	(wire
-		(pts
-			(xy 213.36 60.96) (xy 213.36 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e818a6c1-6f95-44f6-8d6b-8dbb70d9678f")
-	)
-	(wire
-		(pts
-			(xy 167.64 109.22) (xy 167.64 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e834b8d4-2e9e-4bfc-882e-2c3be7551e45")
 	)
 	(wire
 		(pts
@@ -5374,12 +5208,12 @@
 		(uuid "f6fbf5dc-51f5-4eea-a07a-7f9cadeae3b1")
 	)
 	(label "H1b"
-		(at 151.13 64.77 0)
+		(at 168.91 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "09a86acf-2e02-47c9-961b-51fc1768158b")
 	)
@@ -5392,6 +5226,16 @@
 			(justify left bottom)
 		)
 		(uuid "113f6f88-e878-4c54-9935-c89cb4a25447")
+	)
+	(label "H2b"
+		(at 157.48 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17919dd7-ecad-4cb9-b972-986f9fda8cd2")
 	)
 	(label "L2b"
 		(at 214.63 106.68 180)
@@ -5414,12 +5258,12 @@
 		(uuid "20be1aee-e668-464f-ab5a-430f069818e1")
 	)
 	(label "H2b"
-		(at 214.63 64.77 180)
+		(at 210.82 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2fa7886d-665c-4e6b-8ad6-2da1d3e173a3")
 	)
@@ -5512,6 +5356,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f1e3827-45b7-4027-91c6-f77aa70966ce")
+	)
+	(label "H1b"
+		(at 222.25 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83f855ee-70b6-4e2a-914a-98fc9b8e23e6")
 	)
 	(label "LO_IN"
 		(at 25.4 113.03 180)
@@ -5784,7 +5638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC327")
+		(lib_id "Transistor_BJT:MMBT3906")
 		(at 173.99 64.77 0)
 		(mirror x)
 		(unit 1)
@@ -5803,7 +5657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC327"
+		(property "Value" "MMBT2907A"
 			(at 179.07 66.0399 0)
 			(effects
 				(font
@@ -5812,7 +5666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 179.07 62.865 0)
 			(effects
 				(font
@@ -5823,7 +5677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -5833,7 +5687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -5851,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "BC327"
+		(property "Sim.Name" "QN2907A"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -5869,7 +5723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -6900,127 +6754,6 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC327")
-		(at 205.74 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "160bfbc3-4d55-47f6-a22d-c487642a8757")
-		(property "Reference" "Qh2"
-			(at 200.66 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC327"
-			(at 200.66 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 200.66 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTP.LIB"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BC327"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 205.74 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84c9181a-8e14-4772-b628-17e05f758d95")
-		)
-		(pin "3"
-			(uuid "1930b1a1-b472-4b38-a14f-b647ae2f9c36")
-		)
-		(pin "2"
-			(uuid "7d89a0f7-58da-4c4a-a1ae-2f86d9ccafe4")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Qh2")
 					(unit 1)
 				)
 			)
@@ -9205,7 +8938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC337")
+		(lib_id "Transistor_BJT:MMBT2222A")
 		(at 173.99 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9223,7 +8956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC337"
+		(property "Value" "MMBT2222A"
 			(at 179.07 107.9499 0)
 			(effects
 				(font
@@ -9232,7 +8965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 179.07 108.585 0)
 			(effects
 				(font
@@ -9243,7 +8976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -9253,7 +8986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -9271,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "BC337"
+		(property "Sim.Name" "QN2222A"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -9289,7 +9022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -10528,7 +10261,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at -10.16 100.33 90)
 			(do_not_autoplace yes)
 			(effects
@@ -11784,7 +11517,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 165.1 55.88 90)
 			(do_not_autoplace yes)
 			(effects
@@ -12486,6 +12219,127 @@
 			(project "h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 205.74 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aaa83ed-10a3-44ea-80f6-5dc2e8c8ba89")
+		(property "Reference" "Qh2"
+			(at 200.66 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2907A"
+			(at 200.66 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 200.66 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTP.LIB"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QN2907A"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1259710-f4e8-42cd-9f51-9d8f20878fd8")
+		)
+		(pin "3"
+			(uuid "247bd5a1-64e1-4b36-b199-053a25f12f83")
+		)
+		(pin "2"
+			(uuid "a38e3f26-1ca2-4ac9-9d25-17597c625427")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "Qh2")
 					(unit 1)
 				)
 			)
@@ -13252,6 +13106,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 205.74 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabe04c9-7fdd-47ae-94cb-ac3ab2044bb9")
+		(property "Reference" "Ql2"
+			(at 200.66 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 200.66 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 200.66 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTN.LIB"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QN2222A"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53cd93e4-216f-4699-9423-96c036272cd5")
+		)
+		(pin "3"
+			(uuid "673325ca-835c-4474-9782-7297098a7b8a")
+		)
+		(pin "2"
+			(uuid "4241829d-f0da-4cab-8de4-e7b8929c4555")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "Ql2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:R")
 		(at 280.67 97.79 90)
 		(mirror x)
@@ -13450,7 +13426,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at -10.16 58.42 90)
 			(do_not_autoplace yes)
 			(effects
@@ -13523,7 +13499,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 167.64 114.3 180)
+		(at 162.56 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13532,16 +13508,15 @@
 		(fields_autoplaced yes)
 		(uuid "b21e0d0e-9c89-43ac-9325-91094f84f97e")
 		(property "Reference" "R16"
-			(at 170.18 114.2999 0)
+			(at 162.56 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 167.64 114.3 90)
+		(property "Value" "5.1k"
+			(at 162.56 121.92 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13550,7 +13525,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 167.64 114.3 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 114.3 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,7 +13543,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 167.64 114.3 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13577,7 +13552,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 170.815 117.475 0)
+			(at 165.735 118.745 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13587,7 +13562,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 165.1 111.125 0)
+			(at 159.385 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13820,128 +13795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC337")
-		(at 205.74 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b4d1b2-5391-4619-b3c2-9b85ebfd1655")
-		(property "Reference" "Ql2"
-			(at 200.66 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC337"
-			(at 200.66 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 200.66 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJTN.LIB"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BC337"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ba8997f-f3c3-47f5-ab3f-ad75a969e71e")
-		)
-		(pin "3"
-			(uuid "23c9454d-41d2-4bd2-87f2-7fd12ff84ad7")
-		)
-		(pin "2"
-			(uuid "faa602e1-26ec-4b84-b481-37ad6b0c3578")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Ql2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 55.88 92.71 0)
 		(unit 1)
@@ -14116,7 +13969,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 213.36 55.88 90)
 			(do_not_autoplace yes)
 			(effects
@@ -14793,7 +14646,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 212.09 114.3 180)
+		(at 217.17 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14802,16 +14655,15 @@
 		(fields_autoplaced yes)
 		(uuid "cdf939bc-f655-4823-93b6-82561f9f9fa3")
 		(property "Reference" "R17"
-			(at 214.63 114.2999 0)
+			(at 217.17 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 212.09 114.3 90)
+		(property "Value" "5.1k"
+			(at 217.17 121.92 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14820,7 +14672,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 212.09 114.3 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14829,7 +14681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 114.3 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14838,7 +14690,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 212.09 114.3 0)
+			(at 217.17 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +14699,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 215.265 117.475 0)
+			(at 213.995 125.095 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14857,7 +14709,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 209.55 111.125 0)
+			(at 220.345 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
