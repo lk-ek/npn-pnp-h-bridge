@@ -3526,7 +3526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -4579,7 +4579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 142.24 63.5 0)
 			(effects
 				(font
@@ -4873,7 +4873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "2N3904_Cordell"
+		(property "Sim.Name" "2N3904"
 			(at 83.82 69.85 0)
 			(effects
 				(font
@@ -5218,7 +5218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 111.76 105.41 0)
 			(effects
 				(font
@@ -6235,7 +6235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 83.82 111.76 0)
 			(effects
 				(font
@@ -6423,7 +6423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 170.18 111.76 0)
 			(effects
 				(font
@@ -6748,7 +6748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 170.18 69.85 0)
 			(effects
 				(font
@@ -7781,7 +7781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/led-antiparallel.cir"
+		(property "Sim.Library" "spice/led-antiparallel.cir"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -7881,7 +7881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Transistor/BJT/BJT.lib"
+		(property "Sim.Library" "spice/BJT.lib"
 			(at 142.24 105.41 0)
 			(effects
 				(font
