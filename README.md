@@ -33,4 +33,8 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 - I have not yet tested how much current this schematic can tolerate (depending on transistors and thermal limits).
 - Load: connected between `O1` and `O2` (e.g., antiparallel LEDs)
 
+## License
 
+Attribution-NonCommercial-ShareAlike 4.0 International
+
+See LICENSE for details, or: https://creativecommons.org/licenses/by-nc-sa/4.0/
