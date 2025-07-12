@@ -2583,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 33.02) (xy 213.36 33.02)
+			(xy 180.34 87.63) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 33.02) (xy 261.62 33.02)
+			(xy 227.33 87.63) (xy 229.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +2873,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 33.02) (xy 228.6 33.02)
+			(xy 191.77 87.63) (xy 196.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 33.02) (xy 248.92 33.02)
+			(xy 212.09 87.63) (xy 217.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3222,7 +3222,7 @@
 		(uuid "483061c7-5015-4ae8-9d0f-bb2837654389")
 	)
 	(label "LED_O1"
-		(at 228.6 33.02 180)
+		(at 196.85 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3252,7 +3252,7 @@
 		(uuid "7551d08f-57d6-4309-aadc-10054da81c0e")
 	)
 	(label "LED_O2"
-		(at 243.84 33.02 0)
+		(at 212.09 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3272,7 +3272,7 @@
 		(uuid "7f1e3827-45b7-4027-91c6-f77aa70966ce")
 	)
 	(label "O2"
-		(at 261.62 33.02 0)
+		(at 229.87 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3302,7 +3302,7 @@
 		(uuid "a6844d08-a120-4f46-a6e9-d7070125fb4b")
 	)
 	(label "O1"
-		(at 212.09 33.02 180)
+		(at 180.34 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3322,7 +3322,7 @@
 		(uuid "bba6c099-cbcc-495f-913a-d2487f7b9dc3")
 	)
 	(label "LO_IN"
-		(at 41.91 137.16 180)
+		(at 62.23 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3372,7 +3372,7 @@
 		(uuid "e594bb36-d4ce-426f-822c-df3341bd4dbb")
 	)
 	(label "HI_IN"
-		(at 41.91 128.27 180)
+		(at 62.23 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4207,7 +4207,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 218.44 33.02 90)
+		(at 186.69 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4216,7 +4216,7 @@
 		(fields_autoplaced yes)
 		(uuid "2921b29d-5ba0-4b64-8ada-1088ee397523")
 		(property "Reference" "VMEAS1"
-			(at 218.3102 25.4 90)
+			(at 186.5602 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4224,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 218.3102 27.94 90)
+			(at 186.5602 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 33.02 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 218.44 33.02 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4250,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 218.44 33.02 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 218.44 33.02 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4268,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 218.44 33.02 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4277,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 218.44 33.02 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 137.16 90)
+		(at 72.39 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5488,7 +5488,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dd0b56d-e27e-433e-8ac2-49e2845ce1c1")
 		(property "Reference" "#PWR06"
-			(at 58.42 137.16 0)
+			(at 78.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 137.1599 90)
+			(at 76.2 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 137.16 0)
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 137.16 0)
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 137.16 0)
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5790,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 46.99 137.16 270)
+		(at 67.31 132.08 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5800,7 +5800,7 @@
 		(fields_autoplaced yes)
 		(uuid "7983101d-84c0-42aa-9da9-3f4b80b20e8b")
 		(property "Reference" "R4"
-			(at 46.99 133.35 90)
+			(at 67.31 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5808,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 46.99 137.16 90)
+			(at 67.31 132.08 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5817,7 +5817,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 46.99 137.16 0)
+			(at 67.31 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +5826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 137.16 0)
+			(at 67.31 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +5835,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 46.99 137.16 0)
+			(at 67.31 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +5844,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 50.165 140.335 0)
+			(at 70.485 135.255 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5854,7 +5854,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 43.815 134.62 0)
+			(at 64.135 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6595,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 254 33.02 270)
+		(at 222.25 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6604,7 +6604,7 @@
 		(fields_autoplaced yes)
 		(uuid "996477c3-c193-4769-bdee-eb8cdcd1ca7c")
 		(property "Reference" "VMEAS2"
-			(at 254.1298 25.4 90)
+			(at 222.3798 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6612,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 254.1298 27.94 90)
+			(at 222.3798 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +6620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 33.02 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6629,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 254 33.02 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6638,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 254 33.02 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6647,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 254 33.02 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6656,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 254 33.02 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6665,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 254 33.02 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6977,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 46.99 128.27 270)
+		(at 67.31 123.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6987,7 +6987,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcf7c58-a50a-44e7-b377-1f41c37787e5")
 		(property "Reference" "R3"
-			(at 46.99 124.46 90)
+			(at 67.31 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +6995,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 46.99 128.27 90)
+			(at 67.31 123.19 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7004,7 +7004,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 46.99 128.27 0)
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,7 +7013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 128.27 0)
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7022,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 46.99 128.27 0)
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7031,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 50.165 131.445 0)
+			(at 70.485 126.365 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7041,7 +7041,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 43.815 125.73 0)
+			(at 64.135 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 128.27 90)
+		(at 72.39 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7574,7 +7574,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8fbe538-b7f0-4ec6-b1aa-bb16757d86a7")
 		(property "Reference" "#PWR014"
-			(at 58.42 128.27 0)
+			(at 78.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 128.2699 90)
+			(at 76.2 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 128.27 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 128.27 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +7610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 128.27 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7721,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Dual_Bidirectional")
-		(at 236.22 33.02 0)
+		(at 204.47 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7730,7 +7730,7 @@
 		(fields_autoplaced yes)
 		(uuid "e271830f-2fcb-4d8f-90d6-b3165846b27c")
 		(property "Reference" "D1"
-			(at 236.7153 22.86 0)
+			(at 204.9653 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7738,7 @@
 			)
 		)
 		(property "Value" "LED_Lichterkette"
-			(at 236.7153 25.4 0)
+			(at 204.9653 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7746,7 +7746,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7764,7 +7764,7 @@
 			)
 		)
 		(property "Description" "Dual LED, bidirectional"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +7773,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=A 2=B"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7782,7 @@
 			)
 		)
 		(property "Sim.Library" "spice/led-antiparallel.cir"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,7 +7791,7 @@
 			)
 		)
 		(property "Sim.Name" "LED_ARRAY_14"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7800,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 236.22 33.02 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
