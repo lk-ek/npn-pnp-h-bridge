@@ -2,8 +2,8 @@
 
 This project is a discrete transistor-based H-bridge driver designed to drive loads such as a bi-directional LED string (NOT motors, you *need* to use protection diodes in that case!) using two 3.3V logic-level PWM inputs.
 
-![PCB Layout](images/pcb_layout.png)
-![PCB Layout](images/pcb_rendering.png)
+![PCB Layout](images/pcb-layout.png)
+![PCB Layout](images/pcb-rendering.png)
 
 ## Overview
 
