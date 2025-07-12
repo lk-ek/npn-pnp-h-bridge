@@ -37,7 +37,7 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 
 You can use KiCad's simulation tool to simulate the behaviour of this schematic. Modify the parameters of V1 and V2 to simulate different PWM patterns.
 
-## (BOM)
+## BOM
 
 | Designator         | Amount | Value   |
 |--------------------|--------|----------|
