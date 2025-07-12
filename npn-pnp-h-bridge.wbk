@@ -4,21 +4,13 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10n 1m",
+        ".tran 10n 400u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
         ".probe allp"
       ],
       "dottedSecondary": true,
-      "fixedY1scale": {
-        "max": 6.0,
-        "min": -0.6
-      },
-      "fixedY2scale": {
-        "max": 0.03,
-        "min": -0.0006
-      },
       "legend": {
         "x": 982,
         "y": 372
@@ -161,53 +153,1534 @@
         {
           "expr": "RMS P(R15)",
           "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Q1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Q2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Q3)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Q4)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R18)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R19)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(XQ5)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS I(D6)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D4)",
+          "format": "3~A"
+        },
+        {
+          "expr": "MAX I(D6)",
+          "format": "3~A"
+        },
+        {
+          "expr": "MAX I(D4)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS V(+5V)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/bQ1)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/bQ2)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/bQ3)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/bQ4)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/bQ6)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/drain)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/enable)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/EN_IN)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/gate)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/H1b)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/H2b)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/HI_IN)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/L1b)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/L2b)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/LO_IN)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/O1)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(/O2)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_Q1-C_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_Q2-C_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_Q3-C_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_Q4-C_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R11-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R16--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R17-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R19-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R20--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R21--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R22--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R23--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R24--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R25--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R26--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R27--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R28--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R29--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R30--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R31--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R32-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R33--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R34--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R35--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R36-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R37-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R38-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R39-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R40-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R41-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R42-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R43-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R44-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R45-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R46-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R47-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R48-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R49--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R50-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R51--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R52-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R53--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R54-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R55--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R56-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R57--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R58-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R59--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R60-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R61--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R62-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R63--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R64-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R65--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R66-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R67--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R68-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R69--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R70-+_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS V(Net-_R71--_)",
+          "format": "3~V"
+        },
+        {
+          "expr": "RMS I(C1)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(C2)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(C3)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(C4)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(C5)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(C6)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D1)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D2)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D3)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D5)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D7)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D8)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D9)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D10)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D11)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D12)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D13)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D14)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D15)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D16)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D17)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D18)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D19)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D20)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D21)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D22)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D23)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D24)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D25)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D26)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D27)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D28)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D29)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D30)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D31)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D32)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D33)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D34)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D35)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D36)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D37)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D38)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D39)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D40)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D41)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D42)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D43)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D44)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D45)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D46)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D47)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D48)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D49)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D50)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D51)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D52)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D53)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D54)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D55)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(D56)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q1:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q1:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q1:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q2:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q2:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q2:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q3:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q3:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q3:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q4:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q4:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q4:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q6:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q6:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Q6:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Qh1:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Qh1:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Qh1:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Qh2:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Qh2:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Qh2:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Ql1:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Ql1:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Ql1:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Ql2:b)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Ql2:c)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(Ql2:e)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R1)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R2)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R3)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R4)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R5)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R6)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R7)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R8)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R9)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R10)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R11)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R12)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R13)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R14)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R15)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R16)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R17)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R18)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R19)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R20)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R21)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R22)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R23)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R24)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R25)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R26)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R27)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R28)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R29)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R30)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R31)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R32)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R33)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R34)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R35)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R36)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R37)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R38)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R39)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R40)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R41)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R42)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R43)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R44)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R45)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R46)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R47)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R48)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R49)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R50)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R51)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R52)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R53)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R54)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R55)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R56)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R57)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R58)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R59)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R60)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R61)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R62)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R63)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R64)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R65)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R66)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R67)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R68)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R69)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R70)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(R71)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(V1)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(V2)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(V3)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(V6)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(XQ5:1)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(XQ5:2)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS I(XQ5:4)",
+          "format": "3~A"
+        },
+        {
+          "expr": "RMS P(C1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(C2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(C3)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(C4)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(C5)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(C6)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D1)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D2)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D3)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D4)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D5)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D6)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D7)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D8)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D9)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D10)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D11)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D12)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D13)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D14)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D15)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D16)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D17)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D18)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D19)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D20)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D21)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D22)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D23)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D24)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D25)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D26)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D27)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D28)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D29)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D30)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D31)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D32)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D33)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D34)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D35)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D36)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D37)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D38)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D39)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D40)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D41)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D42)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D43)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D44)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D45)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D46)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D47)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D48)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D49)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D50)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D51)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D52)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D53)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D54)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D55)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(D56)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(Q6)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R16)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R20)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R21)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R22)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R23)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R24)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R25)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R26)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R27)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R28)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R29)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R30)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R31)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R32)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R33)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R34)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R35)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R36)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R37)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R38)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R39)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R40)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R41)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R42)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R43)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R44)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R45)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R46)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R47)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R48)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R49)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R50)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R51)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R52)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R53)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R54)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R55)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R56)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R57)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R58)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R59)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R60)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R61)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R62)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R63)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R64)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R65)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R66)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R67)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R68)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R69)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R70)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(R71)",
+          "format": "3~W"
+        },
+        {
+          "expr": "RMS P(V6)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MAX P(V3)",
+          "format": "3~W"
+        },
+        {
+          "expr": "MIN P(V3)",
+          "format": "3~W"
         }
       ],
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "I(D4)",
-          "trace_type": 258
-        },
-        {
-          "color": "rgb(255, 255, 51)",
-          "signal": "I(D6)",
-          "trace_type": 258
-        },
-        {
           "color": "rgb(228, 26, 28)",
-          "signal": "P(Qh1)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(255, 127, 0)",
-          "signal": "P(Qh2)",
-          "trace_type": 272
-        },
-        {
-          "color": "rgb(166, 86, 40)",
-          "cursor1": {
-            "position": 0.00032081911262798633,
+          "cursor2": {
+            "position": 0.00022980659840728102,
             "x_format": "3~s",
-            "y_format": "3~V"
+            "y_format": "3~A"
           },
           "cursorD": {
             "x_format": "3~s",
-            "y_format": "3~V"
+            "y_format": "3~A"
           },
-          "signal": "V(/H1b)",
-          "trace_type": 257
+          "signal": "I(Qh1:e)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "I(Qh2:e)",
+          "trace_type": 258
         },
         {
           "color": "rgb(55, 126, 184)",
-          "signal": "V(/H2b)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(102, 194, 165)",
-          "signal": "V(/HI_)",
-          "trace_type": 257
+          "cursor1": {
+            "position": 0.00022389078498293515,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "signal": "I(VMEAS1)",
+          "trace_type": 258
         }
       ]
     },
