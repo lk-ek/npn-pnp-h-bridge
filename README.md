@@ -37,6 +37,22 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 
 You can use KiCad's simulation tool to simulate the behaviour of this schematic. Modify the parameters of V1 and V2 to simulate different PWM patterns.
 
+## (BOM)
+
+| Designator         | Amount | Value   |
+|--------------------|--------|----------|
+| C1, C2, C3, C4     | 4      | 100p     |
+| D1                 | 1      | Fairy Lights |
+| J1                 | 1      | JST S4B-PH-K-S |
+| J2                 | 1      | JST S2B-PH-K-S |
+| Q1, Q2, Q3, Q4     | 4      | MMBT3904 |
+| Qh1, Qh2           | 2      | BC327-25 |
+| Ql1, Ql2           | 2      | BC337-25 |
+| R1, R2, R5, R6     | 4      | 2.2k     |
+| R3, R4             | 2      | 220k     |
+| R7, R10–R14        | 6      | 1k       |
+| R8, R9             | 2      | 2k       |
+
 ## License
 
 Attribution-NonCommercial-ShareAlike 4.0 International
