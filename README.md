@@ -39,6 +39,12 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 ![H-Bridge Simulation](images/h-bridge-simulation.png)
 You can use KiCad's simulation tool to simulate the behaviour of this schematic. Modify the parameters of V1 and V2 to simulate different PWM patterns.
 
+## Gerber files
+
+You can download the gerber file directory as a zipfile and directly upload it to e.g. https://aisler.net, https://jlcpcb.com or https://pcbway.com
+
+[Gerber file directory](production/npn-pnp-h-bridge)
+
 ## BOM
 
 | Designator         | Amount | Value   | Package |
