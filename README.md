@@ -33,6 +33,41 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 - BJTs are used in complementary pairs (NPN/PNP) for each half-bridge.
 - I have not yet tested how much current this schematic can tolerate (depending on transistors and thermal limits).
 - Load: connected between `O1` and `O2` (e.g., antiparallel LEDs)
+- You can use [WLED](https://kno.wled.ge/) to drive the inputs - select "PWM CCT" as LED-type. For the phase-shifted PWM to work, you might need to use a beta version from [wled-install.github.io](https://wled-install.github.io/) - 0.16 nightly worked for me.  
+- [ESPHome](https://esphome.io) works as well, see example below
+
+````yaml
+output:
+  - platform: ledc
+    id: pwm_hi
+    pin: 3
+    frequency: 5kHz
+    inverted: false
+    phase_angle: 0.0
+
+  - platform: ledc
+    id: pwm_lo
+    pin: 4
+    frequency: 5kHz
+    inverted: false
+    phase_angle: 180.0
+
+  - platform: template
+    id: pwm_bridge
+    type: float
+    write_action:
+      lambda: |-
+        float duty = clamp(state, 0.0f, 1.0f) * 0.5f;
+        id(pwm_hi).set_level(duty);
+        id(pwm_lo).set_level(duty);
+        ESP_LOGD("custom", "H-Bridge Control: HI=%.2f LO=%.2f", duty, duty);
+light:
+  - platform: monochromatic
+    name: "Bidirektionale Lampe"
+    output: pwm_bridge
+
+```
+
 
 ## Simulation
 
