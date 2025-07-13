@@ -36,7 +36,7 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 - You can use [WLED](https://kno.wled.ge/) to drive the inputs - select "PWM CCT" as LED-type. For the phase-shifted PWM to work, you might need to use a beta version from [wled-install.github.io](https://wled-install.github.io/) - 0.16 nightly worked for me.  
 - [ESPHome](https://esphome.io) works as well, see example below
 
-````yaml
+```yaml
 output:
   - platform: ledc
     id: pwm_hi
