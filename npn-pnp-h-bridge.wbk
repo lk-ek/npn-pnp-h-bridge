@@ -12,8 +12,8 @@
       ],
       "dottedSecondary": true,
       "legend": {
-        "x": 982,
-        "y": 372
+        "x": 697,
+        "y": 258
       },
       "margins": {
         "bottom": 45,
@@ -1652,7 +1652,7 @@
         {
           "color": "rgb(228, 26, 28)",
           "cursor2": {
-            "position": 0.00022980659840728102,
+            "position": 0.0001397042093287827,
             "x_format": "3~s",
             "y_format": "3~A"
           },
@@ -1671,7 +1671,7 @@
         {
           "color": "rgb(55, 126, 184)",
           "cursor1": {
-            "position": 0.00022389078498293515,
+            "position": 5.824800910125142e-05,
             "x_format": "3~s",
             "y_format": "3~A"
           },
@@ -1681,6 +1681,21 @@
           },
           "signal": "I(VMEAS1)",
           "trace_type": 258
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "I(VMEAS2)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/HI_IN)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/LO_IN)",
+          "trace_type": 257
         }
       ]
     },
