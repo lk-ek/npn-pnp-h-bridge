@@ -2402,8 +2402,8 @@
 	)
 	(text_box "Schematic"
 		(exclude_from_sim yes)
-		(at 29.845 24.765 0)
-		(size 102.87 22.86)
+		(at 19.685 24.765 0)
+		(size 149.225 22.86)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 1)
@@ -2422,8 +2422,8 @@
 	)
 	(text_box "Simulation"
 		(exclude_from_sim yes)
-		(at 169.545 24.765 0)
-		(size 102.87 22.86)
+		(at 177.165 24.765 0)
+		(size 95.25 22.86)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 1)
