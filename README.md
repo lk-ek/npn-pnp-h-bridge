@@ -82,6 +82,8 @@ You can download the gerber file directory as a zipfile and directly upload it t
 
 ## BOM
 
+View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
+
 | Designator         | Amount | Value   | Package |
 |--------------------|--------|----------|----|
 | C1, C2, C3, C4     | 4      | 100p     | 0805 |
