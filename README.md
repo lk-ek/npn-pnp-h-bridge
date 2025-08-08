@@ -9,15 +9,15 @@ This project is a discrete transistor-based H-bridge driver designed to drive lo
 
 ## Overview
 
-The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `LO_IN`, each at 3.3V logic level. These signals are level-shifted and drive a discrete H-bridge output stage composed of NPN and PNP BJTs. The output connects to a load (e.g., LED strip) in a push-pull fashion.
+The circuit takes two complementary (non-overlapping) PWM inputs: `L_IN` and `R_IN`, each at 3.3V logic level. These signals are level-shifted and drive a discrete H-bridge output stage composed of NPN and PNP BJTs. The output connects to a load (e.g., LED strip) in a push-pull fashion.
 
 ## Inputs
 
-- `HI_IN`: 3.3V logic PWM input (controls left-side NPN-PNP transistors)
-- `LO_IN`: 3.3V logic PWM input (controls right-side NPN-PNP transistors)
+- `L_IN`: 3.3V logic PWM input (controls left-side NPN-PNP transistors)
+- `R_IN`: 3.3V logic PWM input (controls right-side NPN-PNP transistors)
 
 ⚠️ **Important:**  
-`HI_IN` and `LO_IN` **must be phase-shifted**, even though the NPN-PNP-pair makes sure shoot-through is impossible. If both are high simultaneously, the output is off.
+`L_IN` and `R_IN` **must be phase-shifted**, even though the NPN-PNP-pair makes sure shoot-through is impossible. If both are high simultaneously, the output is off.
 
 ## Supply
 
@@ -40,14 +40,14 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 ```yaml
 output:
   - platform: ledc
-    id: pwm_hi
+    id: pwm_l
     pin: 3
     frequency: 5kHz
     inverted: false
     phase_angle: 0.0
 
   - platform: ledc
-    id: pwm_lo
+    id: pwm_r
     pin: 4
     frequency: 5kHz
     inverted: false
@@ -59,9 +59,9 @@ output:
     write_action:
       lambda: |-
         float duty = clamp(state, 0.0f, 1.0f) * 0.5f;
-        id(pwm_hi).set_level(duty);
-        id(pwm_lo).set_level(duty);
-        ESP_LOGD("custom", "H-Bridge Control: HI=%.2f LO=%.2f", duty, duty);
+        id(pwm_l).set_level(duty);
+        id(pwm_r).set_level(duty);
+        ESP_LOGD("custom", "H-Bridge Control: L=%.2f R=%.2f", duty, duty);
 light:
   - platform: monochromatic
     name: "Bidirektionale Lampe"
@@ -79,6 +79,8 @@ You can use KiCad's simulation tool to simulate the behaviour of this schematic.
 
 You can download the gerber file directory as a zipfile and directly upload it to e.g. https://aisler.net, https://jlcpcb.com or https://pcbway.com
 
+Special thanks to [PCBWay.com](https://pcbway.com) for reaching out to supply me with prototype PCBs; I'll update this section once I assembled and tested the boards. Kudos!
+
 [Gerber file directory](production/npn-pnp-h-bridge)
 
 ## BOM
@@ -88,13 +90,12 @@ View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
 | Designator         | Amount | Value   | Package |
 |--------------------|--------|----------|----|
 | C1, C2, C3, C4     | 4      | 100p     | 0805 
-| D1                 | 1      | Fairy Lights | |
-| D2, D3, D4, D5     | 4      | SS14 Schottky Diode | SMA |
+| D1, D2, D3, D4     | 4      | SS14 Schottky Diode | SMA |
 | J1                 | 1      | JST S4B-PH-K-S | JST PH 2.0mm |
 | J2                 | 1      | JST S2B-PH-K-S | JST PH 2.0mm |
 | Q1, Q2, Q3, Q4     | 4      | MMBT3904 | SOT-23 |
-| Qh1, Qh2           | 2      | BC327-25 | TO-92 |
-| Ql1, Ql2           | 2      | BC337-25 | TO-92 |
+| Ql1, Ql2           | 2      | BC327-25 | TO-92 |
+| Qr1, Qr2           | 2      | BC337-25 | TO-92 |
 | R1, R2, R5, R6     | 4      | 2.2k     | 0805 |
 | R3, R4             | 2      | 220k     | 0805 |
 | R7, R10–R14        | 6      | 1k       | 0805 |
