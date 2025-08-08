@@ -2572,7 +2572,7 @@
 	)
 	(text_box "Simulation"
 		(exclude_from_sim yes)
-		(at 177.165 24.765 0)
+		(at 183.515 24.13 0)
 		(size 95.25 22.86)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
