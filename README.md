@@ -1,9 +1,10 @@
 # H-Bridge Driver for 3.3V PWM Input (HI/LO)
 
-This project is a discrete transistor-based H-bridge driver designed to drive loads such as a bi-directional LED string (NOT motors, you *need* to use protection diodes in that case!) using two 3.3V logic-level PWM inputs.
+This project is a discrete transistor-based H-bridge driver designed to drive loads such as a bi-directional LED string or small DC motors (you *need* to populate the protection diodes in that case!) using two 3.3V logic-level PWM inputs.
 
 ![PCB Layout](images/pcb-layout.png)
-![PCB Rendering](images/pcb-rendering.png)
+![PCB Rendering front](images/pcb-rendering.png)
+![PCB Rendering back](images/pcb-rendering2.png)
 ![Schematic](images/schematic.png)
 
 ## Overview
@@ -32,7 +33,7 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `HI_IN` and `L
 - Input resistors and capacitors are used for filtering and protection.
 - BJTs are used in complementary pairs (NPN/PNP) for each half-bridge.
 - I have not yet tested how much current this schematic can tolerate (depending on transistors and thermal limits).
-- Load: connected between `O1` and `O2` (e.g., antiparallel LEDs)
+- Load: connected between `O1` and `O2` (e.g., antiparallel LEDs or small DC motor)
 - You can use [WLED](https://kno.wled.ge/) to drive the inputs - select "PWM CCT" as LED-type. For the phase-shifted PWM to work, you might need to use a beta version from [wled-install.github.io](https://wled-install.github.io/) - 0.16 nightly worked for me.  
 - [ESPHome](https://esphome.io) works as well, see example below
 
@@ -86,8 +87,9 @@ View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
 
 | Designator         | Amount | Value   | Package |
 |--------------------|--------|----------|----|
-| C1, C2, C3, C4     | 4      | 100p     | 0805 |
+| C1, C2, C3, C4     | 4      | 100p     | 0805 
 | D1                 | 1      | Fairy Lights | |
+| D2, D3, D4, D5     | 4      | SS14 Schottky Diode | SMA |
 | J1                 | 1      | JST S4B-PH-K-S | JST PH 2.0mm |
 | J2                 | 1      | JST S2B-PH-K-S | JST PH 2.0mm |
 | Q1, Q2, Q3, Q4     | 4      | MMBT3904 | SOT-23 |
