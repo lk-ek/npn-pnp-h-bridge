@@ -5,7 +5,6 @@
       "analysis": "TRAN",
       "commands": [
         ".tran 10n 400u",
-        ".kicad adjustpaths",
         ".save all",
         ".probe alli",
         ".probe allp"
@@ -1650,9 +1649,44 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(255, 127, 0)",
+          "signal": "I(Ql1:b)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "I(Ql1:c)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(166, 216, 84)",
+          "signal": "I(Ql1:e)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(255, 217, 47)",
+          "signal": "I(Qr1:b)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(229, 196, 148)",
+          "signal": "I(Qr1:c)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(179, 179, 179)",
+          "signal": "I(Qr1:e)",
+          "trace_type": 2
+        },
+        {
           "color": "rgb(228, 26, 28)",
+          "signal": "I(V1)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(77, 175, 74)",
           "cursor2": {
-            "position": 0.0001397042093287827,
+            "position": 0.00017374392865108444,
             "x_format": "3~s",
             "y_format": "3~A"
           },
@@ -1660,18 +1694,18 @@
             "x_format": "3~s",
             "y_format": "3~A"
           },
-          "signal": "I(Qh1:e)",
-          "trace_type": 258
+          "signal": "I(V2)",
+          "trace_type": 2
         },
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "I(Qh2:e)",
-          "trace_type": 258
+          "color": "rgb(55, 126, 184)",
+          "signal": "I(V3)",
+          "trace_type": 2
         },
         {
           "color": "rgb(55, 126, 184)",
           "cursor1": {
-            "position": 5.824800910125142e-05,
+            "position": 0.00016066746126340884,
             "x_format": "3~s",
             "y_format": "3~A"
           },
@@ -1680,22 +1714,22 @@
             "y_format": "3~A"
           },
           "signal": "I(VMEAS1)",
-          "trace_type": 258
+          "trace_type": 2
         },
         {
           "color": "rgb(77, 175, 74)",
           "signal": "I(VMEAS2)",
-          "trace_type": 258
+          "trace_type": 2
         },
         {
-          "color": "rgb(255, 127, 0)",
-          "signal": "V(/HI_IN)",
-          "trace_type": 257
+          "color": "rgb(228, 26, 28)",
+          "signal": "I(XD6:A)",
+          "trace_type": 2
         },
         {
-          "color": "rgb(255, 255, 51)",
-          "signal": "V(/LO_IN)",
-          "trace_type": 257
+          "color": "rgb(152, 78, 163)",
+          "signal": "I(XD6:B)",
+          "trace_type": 2
         }
       ]
     },

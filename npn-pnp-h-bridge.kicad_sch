@@ -4459,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 160.02 90.17 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4615,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 27.94 90.17 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4932,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "180"
 			(at 58.42 83.82 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5011,6 +5011,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2c556ed6-8219-4412-b2da-920c8ca1c6d7")
 		(property "Reference" "Qr1"
 			(at 110.49 82.5499 0)
@@ -5763,76 +5764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS14")
-		(at 101.6 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56adc774-5219-4ffa-b8bc-1f04e3a80f47")
-		(property "Reference" "D4"
-			(at 104.14 125.4124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS14"
-			(at 104.14 127.9524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 97.155 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "004289b5-3ae2-4d7f-b212-d1a533a34a37")
-		)
-		(pin "1"
-			(uuid "567df3e5-3075-418a-9941-95fb9c7e068f")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 190.5 147.32 0)
 		(unit 1)
@@ -6029,6 +5960,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS14")
+		(at 86.36 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b55109-1c5a-40c4-a153-5c4f364c1b56")
+		(property "Reference" "D2"
+			(at 88.9 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS14"
+			(at 88.9 127.9524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 81.915 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a0f6a0d-83db-486c-ac44-01f625400899")
+		)
+		(pin "1"
+			(uuid "c255d082-35ff-4dc0-983e-af2f0f8a4d2e")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 160.02 124.46 270)
 		(mirror x)
@@ -6135,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 27.94 132.08 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6382,7 +6419,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 140.97 77.47 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6784,34 +6821,34 @@
 	)
 	(symbol
 		(lib_id "Diode:SS14")
-		(at 86.36 127 270)
+		(at 101.6 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8261e01f-999a-48c5-ab8d-107b5f79ee12")
-		(property "Reference" "D2"
-			(at 88.9 125.4124 90)
+		(uuid "84e7425d-34a5-42fa-becc-3738b97d7b09")
+		(property "Reference" "D3"
+			(at 99.06 82.2324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SS14"
-			(at 88.9 127.9524 90)
+			(at 99.06 84.7724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 81.915 127 0)
+			(at 97.155 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6857,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 86.36 127 0)
+			(at 101.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6866,43 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 86.36 127 0)
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,15 +6911,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c7cc285-eabf-4b82-b602-0bdaf49785c6")
+			(uuid "760e7e30-8849-4283-b642-f113339eb8f1")
 		)
 		(pin "1"
-			(uuid "7387885c-8370-4f47-a661-31398683daf1")
+			(uuid "b6797ede-b73e-4fb5-a1cc-d32280928ba7")
 		)
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7777,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 46.99 76.2 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7776,76 +7849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS14")
-		(at 101.6 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b604e0be-cca5-44a0-9084-280607497dff")
-		(property "Reference" "D3"
-			(at 99.06 82.2324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS14"
-			(at 99.06 84.7724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 97.155 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 101.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 101.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2f0375a-b9e9-427b-afdb-f5f464ef0f9b")
-		)
-		(pin "1"
-			(uuid "67edfa50-900f-4bf5-b2fb-20fda6419d07")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 127 0)
 		(unit 1)
@@ -7906,6 +7909,112 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 101.6 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c079dbea-8629-4ad6-bb50-098a10aa4e63")
+		(property "Reference" "D4"
+			(at 99.06 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS14"
+			(at 99.06 127.9524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 97.155 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91befe47-9f98-4ed5-91ef-6b9c33fc7d70")
+		)
+		(pin "1"
+			(uuid "59e5371b-1e4b-4e2c-b76f-8996ee5e20c3")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8308,6 +8417,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3140dd5c-b9af-428b-95f6-c102919101ab")
 		)
@@ -8341,7 +8486,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 129.54 125.73 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8483,7 +8628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "LED_ARRAY_14"
+		(property "Sim.Name" "LED_ARRAY_42"
 			(at 231.14 97.79 0)
 			(effects
 				(font
@@ -8525,6 +8670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e36ccca5-df1d-41d1-8c23-4e2715cead11")
 		(property "Reference" "Qr2"
 			(at 110.49 124.4599 0)
@@ -8655,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 58.42 125.73 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8832,7 +8978,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "180"
 			(at 129.54 83.82 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8922,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 160.02 132.08 90)
 			(do_not_autoplace yes)
 			(effects
