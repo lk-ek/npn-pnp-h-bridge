@@ -458,6 +458,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -505,7 +506,7 @@
         "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 39
+        "wire_width": 20
       },
       {
         "clearance": 0.2,
@@ -517,11 +518,11 @@
         "name": "GND",
         "pcb_color": "rgb(221, 133, 0)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 12, 22)",
         "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 39
+        "wire_width": 20
       },
       {
         "clearance": 0.2,
@@ -537,7 +538,7 @@
         "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 39
+        "wire_width": 20
       },
       {
         "clearance": 0.2,
@@ -549,7 +550,7 @@
         "name": "Signal",
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 1,
-        "schematic_color": "rgb(0, 255, 16)",
+        "schematic_color": "rgb(1, 135, 0)",
         "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,

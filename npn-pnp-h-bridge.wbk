@@ -1650,52 +1650,97 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "cursor2": {
-            "position": 0.0001397042093287827,
+          "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 8.812693469863806e-05,
             "x_format": "3~s",
             "y_format": "3~A"
           },
           "cursorD": {
             "x_format": "3~s",
-            "y_format": "3~A"
+            "y_format": "3~W"
           },
-          "signal": "I(Qh1:e)",
-          "trace_type": 258
+          "signal": "I(D1)",
+          "trace_type": 2
         },
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "I(Qh2:e)",
-          "trace_type": 258
+          "color": "rgb(179, 179, 179)",
+          "signal": "I(Ql1:c)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(229, 196, 148)",
+          "signal": "I(Ql2:c)",
+          "trace_type": 2
         },
         {
           "color": "rgb(55, 126, 184)",
-          "cursor1": {
-            "position": 5.824800910125142e-05,
-            "x_format": "3~s",
-            "y_format": "3~A"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~A"
-          },
           "signal": "I(VMEAS1)",
-          "trace_type": 258
+          "trace_type": 2
         },
         {
           "color": "rgb(77, 175, 74)",
           "signal": "I(VMEAS2)",
-          "trace_type": 258
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(252, 141, 98)",
+          "signal": "P(Q1)",
+          "trace_type": 16
+        },
+        {
+          "color": "rgb(141, 160, 203)",
+          "signal": "P(Q2)",
+          "trace_type": 16
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "P(Ql2)",
+          "trace_type": 16
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "cursor2": {
+            "position": 8.5137071612315e-05,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "signal": "P(Qr1)",
+          "trace_type": 16
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "P(R11)",
+          "trace_type": 16
         },
         {
           "color": "rgb(255, 127, 0)",
-          "signal": "V(/HI_IN)",
-          "trace_type": 257
+          "signal": "P(R13)",
+          "trace_type": 16
         },
         {
-          "color": "rgb(255, 255, 51)",
-          "signal": "V(/LO_IN)",
-          "trace_type": 257
+          "color": "rgb(102, 194, 165)",
+          "signal": "P(R8)",
+          "trace_type": 16
+        },
+        {
+          "color": "rgb(102, 194, 165)",
+          "signal": "P(V3)",
+          "trace_type": 16
+        },
+        {
+          "color": "rgb(231, 138, 195)",
+          "signal": "V(/L_IN)",
+          "trace_type": 1
+        },
+        {
+          "color": "rgb(166, 216, 84)",
+          "signal": "V(/R_IN)",
+          "trace_type": 1
         }
       ]
     },

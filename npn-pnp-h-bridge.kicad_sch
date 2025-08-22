@@ -2591,18 +2591,6 @@
 		(uuid "f96f3214-c7db-4b41-ae43-6ef652937355")
 	)
 	(junction
-		(at 113.03 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "000c3b11-153a-464c-bf36-c3b761caf1bb")
-	)
-	(junction
-		(at 86.36 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dc8a79f-dd2c-44b9-9a96-887688ef41f1")
-	)
-	(junction
 		(at 33.02 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2621,16 +2609,28 @@
 		(uuid "16604e48-f217-4f6f-8e4e-fdcd7c3fbe42")
 	)
 	(junction
+		(at 74.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "302842c2-19b6-4981-848d-f199531241d7")
+	)
+	(junction
 		(at 140.97 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e30b4d9-121b-4619-9138-a3db4d50b811")
 	)
 	(junction
-		(at 101.6 118.11)
+		(at 113.03 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b4777db-939e-4a33-bd56-73fa9ffd9526")
+		(uuid "3ef01b91-ace5-4acc-81e2-7b1ae4c95ae7")
+	)
+	(junction
+		(at 86.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1f31ce-2b2d-4da4-8b34-b80651d6005c")
 	)
 	(junction
 		(at 86.36 140.97)
@@ -2645,7 +2645,7 @@
 		(uuid "642d9e13-238c-4df4-b03b-d70c051aba65")
 	)
 	(junction
-		(at 50.8 185.42)
+		(at 38.1 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69df63a5-634c-4a0e-90e8-c2b3d481f243")
@@ -2657,10 +2657,10 @@
 		(uuid "6b8ddca6-2c42-4149-beb8-e789c69e911e")
 	)
 	(junction
-		(at 74.93 118.11)
+		(at 101.6 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6e76b837-0b81-46ee-9575-fcb2b6c8f854")
+		(uuid "834af235-c459-4243-9858-0e97dedd9269")
 	)
 	(junction
 		(at 154.94 90.17)
@@ -2774,16 +2774,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 118.11) (xy 92.71 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a30a02-78be-4cfe-b20e-5ed32cea39d5")
-	)
-	(wire
-		(pts
 			(xy 140.97 66.04) (xy 140.97 72.39)
 		)
 		(stroke
@@ -2794,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 101.6 118.11)
+			(xy 95.25 99.06) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2814,17 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 118.11) (xy 113.03 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ac3dcf-a169-44e2-ac19-701e1eeb14d9")
-	)
-	(wire
-		(pts
-			(xy 41.91 168.91) (xy 55.88 168.91)
+			(xy 29.21 154.94) (xy 43.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 124.46) (xy 140.97 125.73)
+			(xy 140.97 123.19) (xy 140.97 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 166.37) (xy 55.88 166.37)
+			(xy 29.21 152.4) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2994,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 185.42) (xy 50.8 185.42)
+			(xy 34.29 171.45) (xy 38.1 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3011,6 +2991,26 @@
 			(type default)
 		)
 		(uuid "4cea40bb-9226-4be7-998c-cd1f3dd89aa2")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5370b598-d81c-42a5-aa24-6ebb6b3a276d")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53af4f0a-72af-4946-9d41-7aef2f398592")
 	)
 	(wire
 		(pts
@@ -3044,6 +3044,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 87.63) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a39c806-a757-497e-964d-b74db768f705")
+	)
+	(wire
+		(pts
 			(xy 46.99 123.19) (xy 46.99 125.73)
 		)
 		(stroke
@@ -3054,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 171.45) (xy 55.88 171.45)
+			(xy 34.29 157.48) (xy 43.18 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 74.93 118.11)
+			(xy 74.93 88.9) (xy 74.93 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +3094,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 92.71 118.11)
+			(xy 113.03 88.9) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7130c15d-e703-44a5-8dc0-848a44801fed")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 92.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3114,13 +3134,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 86.36 123.19)
+			(xy 92.71 99.06) (xy 92.71 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84ee95ce-e13a-41d4-8c33-d393b137e32c")
+		(uuid "7d720bd3-21fb-4983-a4f1-eac33a0575c8")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 74.93 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f4d0dd-48f4-4814-9b9e-da695f16ebd7")
 	)
 	(wire
 		(pts
@@ -3174,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 110.49) (xy 140.97 114.3)
+			(xy 140.97 110.49) (xy 140.97 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3224,13 +3254,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 185.42) (xy 54.61 185.42)
+			(xy 38.1 171.45) (xy 41.91 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d22cdc1-2fe5-4049-aebe-1894e27ac078")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e330256-0269-445a-8be3-6c465bf72543")
 	)
 	(wire
 		(pts
@@ -3324,16 +3364,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 95.25 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad07631a-e0d0-4075-ae0b-2f9f4bb1b85b")
-	)
-	(wire
-		(pts
 			(xy 17.78 90.17) (xy 22.86 90.17)
 		)
 		(stroke
@@ -3344,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 185.42) (xy 46.99 184.15)
+			(xy 34.29 171.45) (xy 34.29 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3364,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 173.99) (xy 55.88 173.99)
+			(xy 41.91 160.02) (xy 43.18 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3374,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 113.03 118.11)
+			(xy 101.6 99.06) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3424,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 185.42) (xy 54.61 184.15)
+			(xy 41.91 171.45) (xy 41.91 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3434,7 +3464,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 186.69) (xy 50.8 185.42)
+			(xy 38.1 172.72) (xy 38.1 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3474,16 +3504,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 113.03 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d6dee0-bb69-4066-8945-6441ce2aeb0d")
-	)
-	(wire
-		(pts
 			(xy 93.98 142.24) (xy 93.98 140.97)
 		)
 		(stroke
@@ -3491,16 +3511,6 @@
 			(type default)
 		)
 		(uuid "daa812f6-4243-459b-914b-b9a2d24a4fad")
-	)
-	(wire
-		(pts
-			(xy 86.36 87.63) (xy 86.36 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc02753d-3f5b-4a23-96da-df086eeede60")
 	)
 	(wire
 		(pts
@@ -3524,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 173.99) (xy 46.99 171.45)
+			(xy 34.29 160.02) (xy 34.29 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3534,13 +3544,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 101.6 118.11)
+			(xy 113.03 99.06) (xy 113.03 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7396ac9-9a42-4d4d-b70d-8161dec6b89c")
+		(uuid "ec58ddb4-19cc-4c02-9387-2a3d5c4be79b")
 	)
 	(wire
 		(pts
@@ -3574,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 118.11) (xy 86.36 118.11)
+			(xy 74.93 99.06) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3591,16 +3601,6 @@
 			(type default)
 		)
 		(uuid "f277ade2-820a-4af6-b46f-a58452bd471d")
-	)
-	(wire
-		(pts
-			(xy 74.93 118.11) (xy 74.93 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f296c5de-e2bd-43f7-970f-238c5081ab86")
 	)
 	(wire
 		(pts
@@ -3634,13 +3634,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 101.6 123.19)
+			(xy 95.25 99.06) (xy 95.25 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f92ae175-019b-4218-b9c7-2f69759c28d2")
+		(uuid "f78ec4dc-73e9-466a-b398-8daf50bc99e6")
 	)
 	(wire
 		(pts
@@ -3663,7 +3663,7 @@
 		(uuid "09a86acf-2e02-47c9-961b-51fc1768158b")
 	)
 	(label "O1"
-		(at 87.63 118.11 0)
+		(at 90.17 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3703,7 +3703,7 @@
 		(uuid "2fa7886d-665c-4e6b-8ad6-2da1d3e173a3")
 	)
 	(label "L_IN"
-		(at 55.88 173.99 180)
+		(at 43.18 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3743,7 @@
 		(uuid "5ea2d77c-e89c-4a67-b083-c8aff7a16167")
 	)
 	(label "O2"
-		(at 97.79 118.11 0)
+		(at 95.25 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3833,7 +3833,7 @@
 		(uuid "d7eaa40b-3b4a-4467-a396-87af5cb1434c")
 	)
 	(label "R_IN"
-		(at 46.99 171.45 180)
+		(at 34.29 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4227,7 +4227,7 @@
 	)
 	(symbol
 		(lib_id "Misc:S4B-PH-K-S_LF__SN_")
-		(at 55.88 166.37 0)
+		(at 43.18 152.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4236,7 +4236,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eb02fec-3f5b-4ffe-9b3d-67271007638d")
 		(property "Reference" "J1"
-			(at 72.39 168.9099 0)
+			(at 59.69 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4245,7 @@
 			)
 		)
 		(property "Value" "S4B-PH-K-S_LF__SN_"
-			(at 72.39 170.1799 0)
+			(at 59.69 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4255,7 @@
 			)
 		)
 		(property "Footprint" "Misc:CONN_S4B-PH-K-S_JST"
-			(at 72.39 171.4499 0)
+			(at 59.69 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4265,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-PHsocket-1-4P-Curved-needle-pitch2mm_C157926.pdf"
-			(at 72.39 361.29 0)
+			(at 59.69 347.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4275,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 4POS 2MM"
-			(at 55.88 166.37 0)
+			(at 43.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4284,7 @@
 			)
 		)
 		(property "Height" "4.8"
-			(at 72.39 561.29 0)
+			(at 59.69 547.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4294,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 72.39 661.29 0)
+			(at 59.69 647.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4304,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S4B-PH-K-S(LF)(SN)"
-			(at 72.39 761.29 0)
+			(at 59.69 747.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4314,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 72.39 861.29 0)
+			(at 59.69 847.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4324,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S4B-PH-K-SLFSN?qs=QpmGXVUTftEGA16rwNx4xw%3D%3D"
-			(at 72.39 961.29 0)
+			(at 59.69 947.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4334,7 @@
 			)
 		)
 		(property "Arrow Part Number" "S4B-PH-K-S(LF)(SN)"
-			(at 72.39 1061.29 0)
+			(at 59.69 1047.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4344,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/s4b-ph-k-s-lf-sn/jst-manufacturing?region=europe"
-			(at 72.39 1161.29 0)
+			(at 59.69 1147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 160.02 90.17 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4532,7 +4532,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 168.91 270)
+		(at 29.21 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4541,7 +4541,7 @@
 		(fields_autoplaced yes)
 		(uuid "18f3edf8-e529-44fe-b044-304ab24860f6")
 		(property "Reference" "#PWR011"
-			(at 35.56 168.91 0)
+			(at 22.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 168.9099 90)
+			(at 25.4 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 168.91 0)
+			(at 29.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 168.91 0)
+			(at 29.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 168.91 0)
+			(at 29.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 27.94 90.17 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4932,7 +4932,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "180"
 			(at 58.42 83.82 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5206,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=3.3 td=0 tr=100n tf=100n tw=85u per=170u"
+		(property "Sim.Params" "y1=0 y2=3.3 td=0 tr=100n tf=100n tw=83u per=170u"
 			(at 222.25 124.3301 0)
 			(effects
 				(font
@@ -5225,6 +5225,112 @@
 			(project "h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 86.36 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "346a5411-b4c6-485c-af2f-af9fdd4a931c")
+		(property "Reference" "D3"
+			(at 88.9 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS14"
+			(at 88.9 127.9524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 81.915 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e89777fc-a65b-460c-bca9-6be9d19e7479")
+		)
+		(pin "1"
+			(uuid "1ef7cdc8-875c-49b6-9d3c-f9bc7cce7c63")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5485,7 +5591,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 140.97 119.38 0)
+		(at 140.97 118.11 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5495,7 +5601,7 @@
 		(fields_autoplaced yes)
 		(uuid "51c9208b-623d-4785-9735-ad1857598e52")
 		(property "Reference" "R12"
-			(at 138.43 119.3799 0)
+			(at 138.43 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,8 +5609,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 140.97 119.38 90)
+		(property "Value" "2.2k"
+			(at 140.97 118.11 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5513,7 +5619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.97 119.38 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 119.38 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5637,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 140.97 119.38 0)
+			(at 140.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5646,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 137.795 122.555 0)
+			(at 137.795 121.285 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5550,7 +5656,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 143.51 116.205 0)
+			(at 143.51 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5682,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 166.37 90)
+		(at 29.21 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5585,7 +5691,7 @@
 		(fields_autoplaced yes)
 		(uuid "547ab44c-8495-415f-914d-15e9207243b1")
 		(property "Reference" "#PWR010"
-			(at 45.72 166.37 0)
+			(at 33.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5700,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 38.1 166.3699 90)
+			(at 25.4 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 166.37 0)
+			(at 29.21 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 166.37 0)
+			(at 29.21 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 166.37 0)
+			(at 29.21 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,76 +5863,6 @@
 			(project "h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "Ql2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS14")
-		(at 101.6 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56adc774-5219-4ffa-b8bc-1f04e3a80f47")
-		(property "Reference" "D4"
-			(at 104.14 125.4124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS14"
-			(at 104.14 127.9524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 97.155 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 101.6 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "004289b5-3ae2-4d7f-b212-d1a533a34a37")
-		)
-		(pin "1"
-			(uuid "567df3e5-3075-418a-9941-95fb9c7e068f")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6135,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 27.94 132.08 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6201,6 +6237,112 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 101.6 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed97d66-b84e-473c-844b-7dedf364fc8b")
+		(property "Reference" "D2"
+			(at 99.06 82.2324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS14"
+			(at 99.06 84.7724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 97.155 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5408968-accd-4753-b6a8-8797943d52ac")
+		)
+		(pin "1"
+			(uuid "aeac049c-5dc2-4c09-832e-d9370dee6b57")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6274,7 +6416,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 46.99 179.07 0)
+		(at 34.29 165.1 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6284,7 +6426,7 @@
 		(fields_autoplaced yes)
 		(uuid "7983101d-84c0-42aa-9da9-3f4b80b20e8b")
 		(property "Reference" "R4"
-			(at 50.8 179.07 90)
+			(at 38.1 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6434,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 46.99 179.07 90)
+			(at 34.29 165.1 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6301,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 46.99 179.07 0)
+			(at 34.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 179.07 0)
+			(at 34.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6461,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 46.99 179.07 0)
+			(at 34.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6470,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 43.815 182.245 0)
+			(at 31.115 168.275 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6338,7 +6480,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 49.53 175.895 0)
+			(at 36.83 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6524,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 140.97 77.47 90)
 			(do_not_autoplace yes)
 			(effects
@@ -6455,16 +6597,16 @@
 	)
 	(symbol
 		(lib_id "Misc:S2B-PH-K-S_LF__SN_")
-		(at 92.71 115.57 90)
+		(at 92.71 102.87 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7be4bb63-dd2e-4fb3-be26-649b064a88fa")
 		(property "Reference" "J2"
-			(at 99.06 105.4099 90)
+			(at 99.06 113.0301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6615,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-K-S_LF__SN_"
-			(at 93.98 97.79 90)
+			(at 93.98 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6624,7 @@
 			)
 		)
 		(property "Footprint" "Misc:DS2BPHKSLFSN"
-			(at 187.63 99.06 0)
+			(at 187.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6634,7 @@
 			)
 		)
 		(property "Datasheet" "http://uk.rs-online.com/web/p/products/8201494"
-			(at 287.63 99.06 0)
+			(at 287.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6644,7 @@
 			)
 		)
 		(property "Description" "PH-2.0mm Header side entry 2 way JST PH Series, Series Number S2B, 2mm Pitch 2 Way 1 Row Right Angle PCB Header, Through Hole Termination, 2A"
-			(at 92.71 115.57 0)
+			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6653,7 @@
 			)
 		)
 		(property "Height" "4.8"
-			(at 487.63 99.06 0)
+			(at 487.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6663,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 587.63 99.06 0)
+			(at 587.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6673,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S2B-PH-K-S(LF)(SN)"
-			(at 687.63 99.06 0)
+			(at 687.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6683,7 @@
 			)
 		)
 		(property "Mouser Part Number" "306-S2BPHKSLFSNPP"
-			(at 787.63 99.06 0)
+			(at 787.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6693,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/S2B-PH-K-SLFSN?qs=cdbOS8ANM9A5Ie4gXeMjTA%3D%3D"
-			(at 887.63 99.06 0)
+			(at 887.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6703,7 @@
 			)
 		)
 		(property "Arrow Part Number" "S2B-PH-K-S(LF)(SN)"
-			(at 987.63 99.06 0)
+			(at 987.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6713,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/s2b-ph-k-s-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-			(at 1087.63 99.06 0)
+			(at 1087.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,76 +6919,6 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS14")
-		(at 86.36 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8261e01f-999a-48c5-ab8d-107b5f79ee12")
-		(property "Reference" "D2"
-			(at 88.9 125.4124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SS14"
-			(at 88.9 127.9524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 81.915 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 86.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c7cc285-eabf-4b82-b602-0bdaf49785c6")
-		)
-		(pin "1"
-			(uuid "7387885c-8370-4f47-a661-31398683daf1")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7123,7 +7195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=3.3 td=85u tr=100n tf=100n tw=85.0u per=170u"
+		(property "Sim.Params" "y1=0 y2=3.3 td=85u tr=100n tf=100n tw=83.0u per=170u"
 			(at 222.25 149.7301 0)
 			(effects
 				(font
@@ -7366,6 +7438,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS14")
+		(at 101.6 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b772128-8451-4034-ac6e-22e9ab3f487a")
+		(property "Reference" "D4"
+			(at 99.06 125.4124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS14"
+			(at 99.06 127.9524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 97.155 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "533048b2-56f8-4810-8be6-a0c85c9d967b")
+		)
+		(pin "1"
+			(uuid "36f0a977-984d-4526-b0f9-5e561b442ac7")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 203.2 147.32 0)
 		(unit 1)
@@ -7531,7 +7709,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 54.61 179.07 0)
+		(at 41.91 165.1 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7541,7 +7719,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcf7c58-a50a-44e7-b377-1f41c37787e5")
 		(property "Reference" "R3"
-			(at 58.42 179.07 90)
+			(at 45.72 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7727,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 54.61 179.07 90)
+			(at 41.91 165.1 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7558,7 +7736,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 54.61 179.07 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 179.07 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7754,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 54.61 179.07 0)
+			(at 41.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7585,7 +7763,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 51.435 182.245 0)
+			(at 38.735 168.275 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7595,7 +7773,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 57.15 175.895 0)
+			(at 44.45 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7882,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 46.99 76.2 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7770,76 +7948,6 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS14")
-		(at 101.6 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b604e0be-cca5-44a0-9084-280607497dff")
-		(property "Reference" "D3"
-			(at 99.06 82.2324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS14"
-			(at 99.06 84.7724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 97.155 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 101.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 101.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2f0375a-b9e9-427b-afdb-f5f464ef0f9b")
-		)
-		(pin "1"
-			(uuid "67edfa50-900f-4bf5-b2fb-20fda6419d07")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8099,7 +8207,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 186.69 0)
+		(at 38.1 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8108,7 +8216,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb95cd5b-82a4-4a35-9dd5-3f79e1e1b9ee")
 		(property "Reference" "#PWR06"
-			(at 50.8 193.04 0)
+			(at 38.1 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8225,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 191.77 0)
+			(at 38.1 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 186.69 0)
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 186.69 0)
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 186.69 0)
+			(at 38.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8290,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 46.99 118.11 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8308,6 +8416,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "/Users/lkolbe/work/Tinkering/spice/KiCad-Spice-Library/Models/Diode/DIODE2.lib"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SS14"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3140dd5c-b9af-428b-95f6-c102919101ab")
 		)
@@ -8341,7 +8485,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "180"
 			(at 129.54 125.73 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8655,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "180"
 			(at 58.42 125.73 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8832,7 +8976,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "180"
 			(at 129.54 83.82 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8922,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "680"
 			(at 160.02 132.08 90)
 			(do_not_autoplace yes)
 			(effects

@@ -32,7 +32,7 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `L_IN` and `R_
 
 - Input resistors and capacitors are used for filtering and protection.
 - BJTs are used in complementary pairs (NPN/PNP) for each half-bridge.
-- I have not yet tested how much current this schematic can tolerate (depending on transistors and thermal limits).
+- I have not yet tested how much current this schematic can tolerate (depending on transistors and thermal limits). So far, 100mA worked fine without anything getting noticably warm. In theory, it should tolerate at least 250mA on each side of the H-Bridge, so at least 500mA in total, but this is so far untested.
 - Load: connected between `O1` and `O2` (e.g., antiparallel LEDs or small DC motor)
 - You can use [WLED](https://kno.wled.ge/) to drive the inputs - select "PWM CCT" as LED-type. For the phase-shifted PWM to work, you might need to use a beta version from [wled-install.github.io](https://wled-install.github.io/) - 0.16 nightly worked for me.  
 - [ESPHome](https://esphome.io) works as well, see example below
@@ -96,10 +96,11 @@ View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
 | Q1, Q2, Q3, Q4     | 4      | MMBT3904 | SOT-23 |
 | Ql1, Ql2           | 2      | BC327-25 | TO-92 |
 | Qr1, Qr2           | 2      | BC337-25 | TO-92 |
-| R1, R2, R5, R6     | 4      | 2.2k     | 0805 |
+| R1, R2, R5, R6     | 4      | 680      | 0805 |
 | R3, R4             | 2      | 220k     | 0805 |
-| R7, R10–R14        | 6      | 1k       | 0805 |
-| R8, R9             | 2      | 2k       | 0805 |
+| R7, R10            | 2      | 4.7k       | 0805 |
+| R11, R12           | 2      | 2.2k       | 0805 |
+| R8, R9, R13, R14   | 4      | 180 1/4W | 0805 |
 
 ## License
 
