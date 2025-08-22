@@ -4,6 +4,10 @@
 
 This project is a discrete transistor-based H-bridge driver designed to drive loads such as a bi-directional LED string or small DC motors (you *need* to populate the protection diodes in that case!) using two 3.3V logic-level PWM inputs.
 
+Special thanks to [PCBWay.com](https://pcbway.com) for reaching out to supply me with prototype PCBs. They turned out amazing and do work like a charm! This gave me the opportunity to fix a few things I got wrong in the first version - especially adding the protection diodes so this circuit can now not only drive LED-strips with anti-parallel circuits, but also small DC motors.
+
+Also, if you are looking for a tool to handle your PCBs while soldering, look no further - [eHaJo's LötDock](https://www.ehajo.de/products/lotdock-workshop-set-a5-lotdock-base-a5-lotdock-starterkit) is there to save you! It's awesome. See it in action for a minute [here](https://www.youtube.com/watch?v=5W0FboXXDTc) (timelapse of the assembly of this PCB).
+
 ![PCB Layout](images/pcb-layout.png)
 ![PCB Rendering front](images/pcb-rendering.png)
 ![PCB Rendering back](images/pcb-rendering2.png)
@@ -81,7 +85,6 @@ You can use KiCad's simulation tool to simulate the behaviour of this schematic.
 
 You can download the gerber file directory as a zipfile and directly upload it to e.g. https://aisler.net, https://jlcpcb.com or https://pcbway.com
 
-Special thanks to [PCBWay.com](https://pcbway.com) for reaching out to supply me with prototype PCBs; I'll update this section once I assembled and tested the boards. Kudos!
 
 [Gerber file directory](production/npn-pnp-h-bridge)
 
