@@ -1,5 +1,7 @@
 # H-Bridge Driver for 3.3V PWM Input (HI/LO)
 
+![NPN-PNP-H-Bridge-in-action](images/npn-pnp-h-bridge-in-action.jpg)
+
 This project is a discrete transistor-based H-bridge driver designed to drive loads such as a bi-directional LED string or small DC motors (you *need* to populate the protection diodes in that case!) using two 3.3V logic-level PWM inputs.
 
 ![PCB Layout](images/pcb-layout.png)
