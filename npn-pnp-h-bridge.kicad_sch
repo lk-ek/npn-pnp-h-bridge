@@ -3326,7 +3326,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
+		(symbol "Transistor_BJT:MMDT3904"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3335,7 +3335,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3343,8 +3343,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
+			(property "Value" "MMDT3904"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3352,28 +3352,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3382,7 +3370,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3391,7 +3379,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3400,19 +3396,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "MMDT3904_0_1"
 				(polyline
 					(pts
 						(xy 0.635 1.905) (xy 0.635 -1.905)
@@ -3425,22 +3418,21 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "MMBT3904_1_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.635 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -3462,6 +3454,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
@@ -3474,10 +3477,48 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "MMDT3904_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3492,10 +3533,30 @@
 						)
 					)
 				)
+			)
+			(symbol "MMDT3904_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3513,14 +3574,14 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E"
+					(name "E2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6178,7 +6239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1abd6129-948c-4bf3-9c0a-9c96dbb757c7")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 115.57 119.0624 90)
 			(effects
 				(font
@@ -6268,7 +6329,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6284,7 +6345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f42f31-e4ac-4fce-9c12-da8760242b88")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 34.29 80.01 90)
 			(effects
 				(font
@@ -6357,7 +6418,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6745,7 +6806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30fb3280-6671-4a35-869c-01c528cac344")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 95.25 119.0624 90)
 			(effects
 				(font
@@ -6835,7 +6896,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7015,17 +7076,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 48.26 83.82 0)
+		(lib_id "Transistor_BJT:MMDT3904")
+		(at 157.48 83.82 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d0ea9f8-05c6-42c9-9d96-7ed89129eda7")
+		(uuid "4d2e383b-67cf-4a63-a131-61e3a75c23b2")
 		(property "Reference" "Q2"
-			(at 53.34 82.5499 0)
+			(at 152.4 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,8 +7095,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904"
-			(at 53.34 85.0899 0)
+		(property "Value" "MMDT3904"
+			(at 152.4 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,29 +7104,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 53.34 85.725 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 48.26 83.82 0)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 48.26 83.82 0)
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7132,7 @@
 			)
 		)
 		(property "Sim.Library" "spice/BJT.lib"
-			(at 48.26 83.82 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,8 +7140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "2N3904"
-			(at 48.26 83.82 0)
+		(property "Sim.Name" "MMDT3904"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,8 +7149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 48.26 83.82 0)
+		(property "Sim.Device" "SUBCKT"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,32 +7158,32 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 48.26 83.82 0)
+		(property "Sim.Pins" "1=E1 2=B1 3=C2 4=E2 5=B2 6=C1"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 48.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2935340-0f80-4d9d-b689-80d9cf8301d6")
-		)
-		(pin "3"
-			(uuid "48734c4c-baa3-42e4-8fca-dc7a51148866")
 		)
 		(pin "2"
-			(uuid "b5310de2-c309-4eef-b9a9-5f735de7ed33")
+			(uuid "4520e29e-f46f-4a66-bb42-1d9ac3c4b045")
+		)
+		(pin "1"
+			(uuid "ed59f5c8-db41-4601-b1bf-c9f9d4c17242")
+		)
+		(pin "6"
+			(uuid "0ad8e36d-bb47-46f5-90e1-ac9c80992f87")
+		)
+		(pin "3"
+			(uuid "2b96be72-639f-4f3f-ab9e-0c0ad1c53391")
+		)
+		(pin "4"
+			(uuid "366c2c7e-15c6-49e0-812a-bf2756767b41")
+		)
+		(pin "5"
+			(uuid "b78814a8-703d-413d-9a32-904c0920e974")
 		)
 		(instances
 			(project "npn-pnp-h-bridge"
@@ -7196,6 +7255,124 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMDT3904")
+		(at 48.26 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fca9879-fe69-4f2a-b880-f7538fe0a3b7")
+		(property "Reference" "Q1"
+			(at 53.34 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3904"
+			(at 53.34 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 53.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "spice/BJT.lib"
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MMDT3904"
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E1 2=B1 3=C2 4=E2 5=B2 6=C1"
+			(at 48.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edf23abc-8935-4037-9867-f23c7be3784b")
+		)
+		(pin "1"
+			(uuid "18ce961e-d11c-4470-98e8-98bf8fa96668")
+		)
+		(pin "6"
+			(uuid "288d1eef-7a2d-4b6e-83cc-2ca76f9a5d0b")
+		)
+		(pin "3"
+			(uuid "2b96be72-639f-4f3f-ab9e-0c0ad1c53392")
+		)
+		(pin "4"
+			(uuid "366c2c7e-15c6-49e0-812a-bf2756767b42")
+		)
+		(pin "5"
+			(uuid "b78814a8-703d-413d-9a32-904c0920e975")
+		)
+		(instances
+			(project ""
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67407c5b-6fa3-47e5-bad0-092d548b86a6")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 34.29 129.54 90)
 			(effects
 				(font
@@ -7749,7 +7926,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cbbdd4f-b0d6-47eb-abc2-1d5854926c7c")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 66.04 95.2499 90)
 			(effects
 				(font
@@ -8250,250 +8427,7 @@
 		(instances
 			(project ""
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 48.26 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80e5bac0-b21f-416d-8fc0-be4c908073dd")
-		(property "Reference" "Q1"
-			(at 53.34 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 53.34 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 53.34 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "spice/BJT.lib"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b91c4d1-db97-4034-92f7-243ff5e21bd3")
-		)
-		(pin "3"
-			(uuid "0bc61615-8383-428d-83cd-8fe9f8f5df38")
-		)
-		(pin "2"
-			(uuid "4342b8de-5743-46bd-9c35-abdbc0f0a5f9")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 157.48 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89bbbca7-99f7-4186-882d-aced033fdfe2")
-		(property "Reference" "Q3"
-			(at 152.4 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 152.4 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 152.4 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "spice/BJT.lib"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 157.48 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8acc3690-9b1e-47be-b9bc-c531c5a115a4")
-		)
-		(pin "3"
-			(uuid "9199b933-a4de-4c76-ae8e-bbc28db0234e")
-		)
-		(pin "2"
-			(uuid "6367e1f4-25de-441d-926e-21cac7273dcb")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Q3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8607,6 +8541,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMDT3904")
+		(at 157.48 125.73 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92014d45-5446-4132-8238-3c96646cd5cd")
+		(property "Reference" "Q2"
+			(at 152.4 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3904"
+			(at 152.4 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 152.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "spice/BJT.lib"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MMDT3904"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E1 2=B1 3=C2 4=E2 5=B2 6=C1"
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edf23abc-8935-4037-9867-f23c7be3784c")
+		)
+		(pin "1"
+			(uuid "18ce961e-d11c-4470-98e8-98bf8fa96669")
+		)
+		(pin "6"
+			(uuid "288d1eef-7a2d-4b6e-83cc-2ca76f9a5d0c")
+		)
+		(pin "3"
+			(uuid "cc6396a2-3c02-4135-8928-7e7808af476d")
+		)
+		(pin "4"
+			(uuid "43eb3d88-ce51-42a9-b074-6db56dbf1912")
+		)
+		(pin "5"
+			(uuid "ce83c635-34ef-4075-b46c-ffbb55e8638d")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "Q2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 248.92 60.96 270)
 		(unit 1)
@@ -8697,128 +8750,6 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "VMEAS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 157.48 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "998b59fb-8182-49cf-acd4-68b7a1938c3b")
-		(property "Reference" "Q4"
-			(at 152.4 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 152.4 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 152.4 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "spice/BJT.lib"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "2N3904"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "286f9fdf-a9da-4a96-8c68-3212d30fde2a")
-		)
-		(pin "3"
-			(uuid "e327e9cc-d264-422b-b561-fe3f56887526")
-		)
-		(pin "2"
-			(uuid "f0930f0f-c406-4157-aa17-fd9586e4a4f7")
-		)
-		(instances
-			(project "npn-pnp-h-bridge"
-				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -9238,7 +9169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafdb74c-0edd-41ca-8492-c15dfe3f5601")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 34.29 114.3 90)
 			(effects
 				(font
@@ -9310,7 +9241,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9326,7 +9257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc68f8e3-78de-4965-b377-36ee8325c1b9")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 115.57 75.8824 90)
 			(effects
 				(font
@@ -9416,7 +9347,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9513,6 +9444,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMDT3904")
+		(at 48.26 125.73 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfd502a7-6a93-40a4-a8cd-492af51b2311")
+		(property "Reference" "Q1"
+			(at 53.34 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMDT3904"
+			(at 53.34 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds30088.pdf"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "spice/BJT.lib"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MMDT3904"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E1 2=B1 3=C2 4=E2 5=B2 6=C1"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edf23abc-8935-4037-9867-f23c7be3784d")
+		)
+		(pin "1"
+			(uuid "18ce961e-d11c-4470-98e8-98bf8fa9666a")
+		)
+		(pin "6"
+			(uuid "288d1eef-7a2d-4b6e-83cc-2ca76f9a5d0d")
+		)
+		(pin "3"
+			(uuid "2b96be72-639f-4f3f-ab9e-0c0ad1c53393")
+		)
+		(pin "4"
+			(uuid "366c2c7e-15c6-49e0-812a-bf2756767b43")
+		)
+		(pin "5"
+			(uuid "b78814a8-703d-413d-9a32-904c0920e976")
+		)
+		(instances
+			(project ""
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS14")
 		(at 92.71 77.47 270)
 		(unit 1)
@@ -9522,7 +9571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcc1f53a-a4d0-4c1d-84d1-8f4f8f05b5a8")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 95.25 75.8824 90)
 			(effects
 				(font
@@ -9612,7 +9661,7 @@
 		(instances
 			(project ""
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9629,7 +9678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df8e1c1c-5a82-4046-93d8-6385c826a14f")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 139.7 95.2499 90)
 			(effects
 				(font
@@ -9723,7 +9772,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10143,7 +10192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ac46e9-b335-4596-8ef2-9416f8997df2")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 34.29 92.71 90)
 			(effects
 				(font
@@ -10215,7 +10264,7 @@
 		(instances
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
