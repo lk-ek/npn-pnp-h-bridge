@@ -1651,33 +1651,14 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(141, 160, 203)",
-          "signal": "I(VMEAS1)",
-          "trace_type": 2
-        },
-        {
           "color": "rgb(231, 138, 195)",
-          "signal": "I(VMEAS2)",
-          "trace_type": 2
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "cursor1": {
-            "position": 8.451958304407937e-05,
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "signal": "P(Ql1)",
+          "signal": "P(Q1)",
           "trace_type": 16
         },
         {
-          "color": "rgb(152, 78, 163)",
+          "color": "rgb(166, 216, 84)",
           "cursor2": {
-            "position": 8.515872048223041e-05,
+            "position": 0.00034015075159139367,
             "x_format": "3~s",
             "y_format": "3~W"
           },
@@ -1685,28 +1666,32 @@
             "x_format": "3~s",
             "y_format": "3~W"
           },
-          "signal": "P(Ql2)",
+          "signal": "P(Q2)",
           "trace_type": 16
         },
         {
-          "color": "rgb(255, 127, 0)",
-          "signal": "P(Qr1)",
+          "color": "rgb(229, 196, 148)",
+          "signal": "P(Q3)",
           "trace_type": 16
         },
         {
-          "color": "rgb(255, 255, 51)",
-          "signal": "P(Qr2)",
+          "color": "rgb(255, 217, 47)",
+          "cursor1": {
+            "position": 0.00033159005058806313,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "signal": "P(Q4)",
           "trace_type": 16
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/O1)",
-          "trace_type": 1
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(/O2)",
-          "trace_type": 1
+          "signal": "P(V3)",
+          "trace_type": 16
         }
       ]
     },
