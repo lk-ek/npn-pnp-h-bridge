@@ -97,18 +97,18 @@ View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
 |--------------------|--------|----------|----|
 | C1, C2, C3, C4     | 4      | 100p     | 0805 
 | C5                 | 1      | 100u     | 0805 
-| D1, D2, D3, D4     | 4      | SS14 Schottky Diode | SMA |
-| D5, D6             | 2      | BAT54S Dual Schottky Diode | SOT-23 |
+| D1, D2             | 2      | BAT54S Dual Schottky Diode | SOT-23 |
+| D3, D4, D5, D6     | 4      | SS14 Schottky Diode | SMA |
 | J1                 | 1      | JST S4B-PH-K-S | JST PH 2.0mm |
 | J2                 | 1      | JST S2B-PH-K-S | JST PH 2.0mm |
-| Q1, Q2, Q3, Q4     | 4      | MMBT3904 | SOT-23 |
+| Q1, Q2             | 2      | MMDT3904 | SOT-363 |
 | Ql1, Ql2           | 2      | BC327-25 | TO-92 |
 | Qr1, Qr2           | 2      | BC337-40 | TO-92 |
-| R1, R2, R5, R6     | 4      | 680      | 0805 |
+| R1, R2, R5, R6, R11, R12     | 6      | 680      | 0805 |
 | R3, R4             | 2      | 220k     | 0805 |
 | R7, R10            | 2      | 4.7k       | 0805 |
-| R11, R12           | 2      | 680       | 0805 |
-| R8, R9, R13, R14   | 4      | 180 1/4W | 0805 |
+| R8, R9             | 2      | 180 1/4W | 0805 |
+| R13, R14           | 2      | 100 1/4W | 0805 |
 
 ## License
 
