@@ -2966,6 +2966,12 @@
 		(uuid "5efa6b1e-1302-43cd-ae9b-f48690d3f745")
 	)
 	(junction
+		(at 66.04 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631edd99-b35d-4438-bfd7-d24893b4070f")
+	)
+	(junction
 		(at 93.98 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3002,6 +3008,12 @@
 		(uuid "93687c96-1689-4a4e-a494-a8ee7c33379f")
 	)
 	(junction
+		(at 66.04 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fccaf17-9865-45e2-b3b0-658cce08d3e5")
+	)
+	(junction
 		(at 113.03 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3012,6 +3024,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adc0e839-b3c5-4a1c-8f3b-905a27cacaca")
+	)
+	(junction
+		(at 121.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc2be8c-7397-450e-b516-c6d494b0c253")
+	)
+	(junction
+		(at 121.92 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c26bb952-8aba-4638-b9d1-2883700535c3")
 	)
 	(junction
 		(at 33.02 132.08)
@@ -3191,6 +3215,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 125.73) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e968990-dc56-4732-88e4-f0314db9e167")
+	)
+	(wire
+		(pts
 			(xy 93.98 140.97) (xy 101.6 140.97)
 		)
 		(stroke
@@ -3311,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 124.46 83.82)
+			(xy 120.65 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 67.31 125.73)
+			(xy 63.5 125.73) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3641,6 +3675,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45d15f7-f00e-4da3-b2f6-2762355cb39f")
+	)
+	(wire
+		(pts
 			(xy 238.76 97.79) (xy 243.84 97.79)
 		)
 		(stroke
@@ -3761,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 125.73) (xy 67.31 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64a325f-fbd9-402b-bf3f-e0f730411afa")
+	)
+	(wire
+		(pts
 			(xy 33.02 132.08) (xy 39.37 132.08)
 		)
 		(stroke
@@ -3851,13 +3905,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 124.46 125.73)
+			(xy 120.65 125.73) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd33708e-6ab7-4604-bd70-bfc344e59f21")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 67.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de997e83-f835-47b4-8ed1-75e56b1fa2f7")
 	)
 	(wire
 		(pts
@@ -3891,7 +3955,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 67.31 83.82)
+			(xy 63.5 83.82) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4742,6 +4806,96 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 121.92 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ee03396-de9e-473f-95c8-b6c43f605f52")
+		(property "Reference" "C8"
+			(at 125.73 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 125.73 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 123.19 133.985 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 122.555 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d6e2078-662d-4a52-862d-80777034652f")
+		)
+		(pin "2"
+			(uuid "5a7ac195-a083-4423-9cf8-f4688cfeb0fb")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 203.2 116.84 0)
 		(unit 1)
@@ -5573,7 +5727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=3.3 td=0 tr=100n tf=100n tw=83u per=170u"
+		(property "Sim.Params" "y2=0 y1=3.3 td=0 tr=100n tf=100n tw=83u per=170u"
 			(at 222.25 124.3301 0)
 			(effects
 				(font
@@ -5773,7 +5927,7 @@
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 76.2 157.48 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -6031,6 +6185,96 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 66.04 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff5c3c5-6dcf-4547-8a03-192124132e6f")
+		(property "Reference" "C6"
+			(at 69.85 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 69.85 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 67.31 133.985 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 66.675 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b05ece97-1949-428f-b9b2-98b428b247c2")
+		)
+		(pin "2"
+			(uuid "da1c05e5-08c0-4edc-bb3e-a570b5257eb8")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7627,6 +7871,96 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 66.04 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a6e4628-3f0f-472a-a787-8691c67e72b4")
+		(property "Reference" "C5"
+			(at 69.85 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 69.85 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 67.31 92.075 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 66.675 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5aaefc8-8a19-4431-8c9d-b6e2e32394ec")
+		)
+		(pin "2"
+			(uuid "af3b58d8-ac22-4f26-87ba-40f18b87da64")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VPULSE")
 		(at 218.44 147.32 0)
 		(unit 1)
@@ -7709,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=3.3 td=85u tr=100n tf=100n tw=83.0u per=170u"
+		(property "Sim.Params" "y2=0 y1=3.3 td=85u tr=100n tf=100n tw=83.0u per=170u"
 			(at 222.25 149.7301 0)
 			(effects
 				(font
@@ -8125,6 +8459,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 121.92 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b21d78-9778-4c8e-8e8a-f8e45fcb749d")
+		(property "Reference" "#PWR023"
+			(at 121.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29dcc932-7d5e-491d-82ca-21ec55e90b39")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 203.2 147.32 0)
 		(unit 1)
@@ -8217,6 +8617,96 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Elektuur:C")
+		(at 121.92 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a165e0b6-6b09-44fe-a879-1286465b6629")
+		(property "Reference" "C7"
+			(at 125.73 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 125.73 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, non-polarized/bipolar"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 123.19 92.075 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 122.555 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7a39b65-dab7-42dc-aad3-8b8ac7cc96f0")
+		)
+		(pin "2"
+			(uuid "419c9b7b-ddcd-4bd3-be52-7d04a4525c9a")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8536,6 +9026,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b522d035-76ad-40fd-ab83-edec178e3787")
+		(property "Reference" "#PWR021"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e39cd8f-afe0-4535-b146-bfc47cbacdbb")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 190.5 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8693,6 +9249,72 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "V8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e45670-90d5-4bde-ad41-7886cf35bda5")
+		(property "Reference" "#PWR022"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a0e746-7a6b-41b2-9b8a-cab7a399bdad")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9534,6 +10156,72 @@
 			(project "npn-pnp-h-bridge"
 				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edf98431-203d-4b47-ad6a-3af484fdcf03")
+		(property "Reference" "#PWR019"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72e88ef-f6a1-42af-afc9-a3f07b911a97")
+		)
+		(instances
+			(project "npn-pnp-h-bridge"
+				(path "/225c2104-9470-41e6-a40d-f9d3cc65f923"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
