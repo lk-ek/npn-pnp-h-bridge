@@ -95,6 +95,7 @@ View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
 | Designator         | Amount | Value   | Package |
 |--------------------|--------|----------|----|
 | C1, C2, C3, C4     | 4      | 100p     | 0805 
+| C5                 | 1      | 100u     | 0805 
 | D1, D2, D3, D4     | 4      | SS14 Schottky Diode | SMA |
 | D5, D6             | 2      | BAT54S Dual Schottky Diode | SOT-23 |
 | J1                 | 1      | JST S4B-PH-K-S | JST PH 2.0mm |
