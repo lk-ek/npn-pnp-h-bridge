@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 1,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00000008_820022a7",
     "zone_display_mode": 0
   },
   "git": {
@@ -114,6 +114,18 @@
   "project": {
     "files": [
       {
+        "name": "npn-pnp-h-bridge.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 46,
+          "pos_y": 89,
+          "size_x": 1866,
+          "size_y": 948
+        }
+      },
+      {
         "name": "npn-pnp-h-bridge.kicad_sch",
         "open": true,
         "window": {
@@ -123,18 +135,6 @@
           "pos_y": 132,
           "size_x": 1084,
           "size_y": 944
-        }
-      },
-      {
-        "name": "npn-pnp-h-bridge.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 46,
-          "pos_y": 89,
-          "size_x": 1866,
-          "size_y": 948
         }
       }
     ]

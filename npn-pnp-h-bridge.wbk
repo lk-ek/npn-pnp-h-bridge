@@ -1651,12 +1651,40 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(141, 160, 203)",
+          "signal": "I(VMEAS1)",
+          "trace_type": 2
+        },
+        {
+          "color": "rgb(231, 138, 195)",
+          "signal": "I(VMEAS2)",
+          "trace_type": 2
+        },
+        {
           "color": "rgb(77, 175, 74)",
+          "cursor1": {
+            "position": 8.451958304407937e-05,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
           "signal": "P(Ql1)",
           "trace_type": 16
         },
         {
           "color": "rgb(152, 78, 163)",
+          "cursor2": {
+            "position": 8.515872048223041e-05,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
           "signal": "P(Ql2)",
           "trace_type": 16
         },
