@@ -8,7 +8,8 @@
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
-        ".probe allp"
+        ".probe allp",
+        ".kicad esavenone"
       ],
       "dottedSecondary": true,
       "legend": {
@@ -1650,96 +1651,33 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(152, 78, 163)",
-          "cursor1": {
-            "position": 8.812693469863806e-05,
-            "x_format": "3~s",
-            "y_format": "3~A"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "signal": "I(D1)",
-          "trace_type": 2
-        },
-        {
-          "color": "rgb(179, 179, 179)",
-          "signal": "I(Ql1:c)",
-          "trace_type": 2
-        },
-        {
-          "color": "rgb(229, 196, 148)",
-          "signal": "I(Ql2:c)",
-          "trace_type": 2
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "I(VMEAS1)",
-          "trace_type": 2
-        },
-        {
           "color": "rgb(77, 175, 74)",
-          "signal": "I(VMEAS2)",
-          "trace_type": 2
-        },
-        {
-          "color": "rgb(252, 141, 98)",
-          "signal": "P(Q1)",
+          "signal": "P(Ql1)",
           "trace_type": 16
         },
         {
-          "color": "rgb(141, 160, 203)",
-          "signal": "P(Q2)",
-          "trace_type": 16
-        },
-        {
-          "color": "rgb(166, 86, 40)",
+          "color": "rgb(152, 78, 163)",
           "signal": "P(Ql2)",
           "trace_type": 16
         },
         {
-          "color": "rgb(228, 26, 28)",
-          "cursor2": {
-            "position": 8.5137071612315e-05,
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
+          "color": "rgb(255, 127, 0)",
           "signal": "P(Qr1)",
           "trace_type": 16
         },
         {
-          "color": "rgb(77, 175, 74)",
-          "signal": "P(R11)",
+          "color": "rgb(255, 255, 51)",
+          "signal": "P(Qr2)",
           "trace_type": 16
         },
         {
-          "color": "rgb(255, 127, 0)",
-          "signal": "P(R13)",
-          "trace_type": 16
-        },
-        {
-          "color": "rgb(102, 194, 165)",
-          "signal": "P(R8)",
-          "trace_type": 16
-        },
-        {
-          "color": "rgb(102, 194, 165)",
-          "signal": "P(V3)",
-          "trace_type": 16
-        },
-        {
-          "color": "rgb(231, 138, 195)",
-          "signal": "V(/L_IN)",
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/O1)",
           "trace_type": 1
         },
         {
-          "color": "rgb(166, 216, 84)",
-          "signal": "V(/R_IN)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/O2)",
           "trace_type": 1
         }
       ]
