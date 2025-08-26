@@ -27,7 +27,7 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `L_IN` and `R_
 
 ## Supply
 
-- `+5V`: Power rail for the H-bridge (used to drive the load)
+- `VDD`: Power rail for the H-bridge (used to drive the load), probably up to 12V
 - `GND`: Common ground
 
 ## Outputs
@@ -39,7 +39,7 @@ The circuit takes two complementary (non-overlapping) PWM inputs: `L_IN` and `R_
 - Input resistors and capacitors are used for filtering and protection.
 - BJTs are used in complementary pairs (NPN/PNP) for each half-bridge.
 - The BAT54S dual-diodes serve as a baker clamp to help the BJTs switch faster and reduce shoot-through from 2-3us to 0.5us in the simulation
-- I have not yet tested how much current this schematic can tolerate (depending on transistors and thermal limits). So far, 210mA worked fine without anything getting noticably warm. In theory, it should tolerate at least 250mA on each side of the H-Bridge, so at least 500mA in total, but this is so far untested.
+- So far, a one-sided load of 210mA worked fine without anything getting noticably warm. In theory, it should tolerate at least 250mA on each side of the H-Bridge, so at least 500mA in total, but this is so far untested.
 - Load: connected between `O1` and `O2` (e.g., antiparallel LEDs or small DC motor)
 - You can use [WLED](https://kno.wled.ge/) to drive the inputs - select "PWM CCT" as LED-type. For the phase-shifted PWM to work, you might need to use a beta version from [wled-install.github.io](https://wled-install.github.io/) - 0.16 nightly worked for me.  
 - [ESPHome](https://esphome.io) works as well, see example below
@@ -101,10 +101,10 @@ View [interactive BOM here](https://lk-ek.github.io/npn-pnp-h-bridge/)
 | D3, D4, D5, D6     | 4      | SS14 Schottky Diode | SMA |
 | J1                 | 1      | JST S4B-PH-K-S | JST PH 2.0mm |
 | J2                 | 1      | JST S2B-PH-K-S | JST PH 2.0mm |
-| Q1, Q2             | 2      | MMDT3904 | SOT-363 |
+| Q1, Q2             | 2      | MMDT3904 Dual NPN Package | SOT-363 |
 | Ql1, Ql2           | 2      | BC327-25 | TO-92 |
 | Qr1, Qr2           | 2      | BC337-40 | TO-92 |
-| R1, R2, R5, R6, R11, R12     | 6      | 680      | 0805 |
+| R1, R2, R5, R6, R11, R12    | 6      | 680      | 0805 |
 | R3, R4             | 2      | 220k     | 0805 |
 | R7, R10            | 2      | 4.7k       | 0805 |
 | R8, R9             | 2      | 180 1/4W | 0805 |
