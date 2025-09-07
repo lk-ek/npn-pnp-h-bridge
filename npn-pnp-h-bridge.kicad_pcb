@@ -7,6 +7,10 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(rev "1.0")
+		(comment 1 "https://github.com/lk-ek/npn-pnp-h-bridge/")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -10483,13 +10487,25 @@
 			)
 		)
 	)
-	(gr_text "H-Bridge for Fairylights"
-		(at 110.83841 67.360437 0)
+	(gr_text "${COMMENT1}"
+		(at 110.2 51.2 0)
+		(layer "B.SilkS" knockout)
+		(uuid "31cb1146-e7fe-4341-8226-e7b8d1e2b267")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "H-Bridge for Fairylights ${REVISION}"
+		(at 110.83841 67.6 0)
 		(layer "B.SilkS" knockout)
 		(uuid "7889325a-0aaf-442b-a0cf-eb461470c5a8")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 			(justify bottom mirror)

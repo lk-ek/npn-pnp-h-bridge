@@ -8,7 +8,8 @@ Special thanks to [PCBWay.com](https://pcbway.com) for reaching out to supply me
 
 Also, if you are looking for a tool to handle your PCBs while soldering, look no further - [eHaJo's LötDock](https://www.ehajo.de/products/lotdock-workshop-set-a5-lotdock-base-a5-lotdock-starterkit) is there to save you! It's awesome. See it in action for a minute [here](https://www.youtube.com/watch?v=5W0FboXXDTc) (timelapse of the assembly of this PCB).
 
-![PCB Layout](images/pcb-layout.png)
+![PCB Layout Front](images/pcb-layout.png)
+![PCB Layout Back](images/pcb-layout-back.png)
 ![PCB Rendering front](images/pcb-rendering.png)
 ![PCB Rendering back](images/pcb-rendering2.png)
 ![Schematic](images/schematic.png)

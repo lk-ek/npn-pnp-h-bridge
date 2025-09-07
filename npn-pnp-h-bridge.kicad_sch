@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "225c2104-9470-41e6-a40d-f9d3cc65f923")
 	(paper "A4")
+	(title_block
+		(title "NPN-PNP-H-Bridge")
+		(rev "1.0")
+		(comment 1 "https://github.com/lk-ek/npn-pnp-h-bridge/")
+	)
 	(lib_symbols
 		(symbol "BAT54S_1"
 			(pin_numbers
