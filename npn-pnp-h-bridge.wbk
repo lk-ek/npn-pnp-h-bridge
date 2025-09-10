@@ -1662,20 +1662,6 @@
         },
         {
           "color": "rgb(255, 255, 51)",
-          "cursor1": {
-            "position": 8.453391786862445e-05,
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "cursor2": {
-            "position": 8.52095618684483e-05,
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~W"
-          },
           "signal": "P(Ql1)",
           "trace_type": 16
         },
@@ -1686,11 +1672,29 @@
         },
         {
           "color": "rgb(247, 129, 191)",
+          "cursor1": {
+            "position": 8.36507747318236e-05,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
           "signal": "P(Qr1)",
           "trace_type": 16
         },
         {
           "color": "rgb(252, 141, 98)",
+          "cursor2": {
+            "position": 8.540286054827175e-05,
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~W"
+          },
           "signal": "P(Qr2)",
           "trace_type": 16
         },

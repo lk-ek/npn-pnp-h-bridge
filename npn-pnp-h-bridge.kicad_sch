@@ -7013,7 +7013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "W"
+		(property "Rating" "1/4W"
 			(at 65.405 74.93 0)
 			(effects
 				(font
@@ -7758,7 +7758,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "2.2k"
 			(at 154.94 111.76 90)
 			(do_not_autoplace yes)
 			(effects
@@ -9929,7 +9929,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "2.2k"
 			(at 50.8 111.76 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10483,7 +10483,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "180"
 			(at 143.51 119.38 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10529,7 +10529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "W"
+		(property "Rating" "1/4W"
 			(at 146.685 116.84 0)
 			(effects
 				(font
@@ -10798,7 +10798,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "180"
 			(at 62.23 119.38 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10844,7 +10844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "W"
+		(property "Rating" "1/4W"
 			(at 65.405 116.84 0)
 			(effects
 				(font
@@ -11022,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "W"
+		(property "Rating" "1/4W"
 			(at 146.685 74.93 0)
 			(effects
 				(font
